@@ -1,0 +1,33 @@
+// variables
+$white: #fff;
+
+// imported scss files
+// @import 'about_us';
+// @import 'plans';
+// @import 'locations';
+// @import 'trainers';
+
+// core styling
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+// .current > a{
+//     // color: not yet defined:
+// }
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 17px;
+}
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}

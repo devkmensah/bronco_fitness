@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+ul {
+  list-style: none; }
+
+.container {
+  max-width: 1200px;
+  padding: 0 17px; }
+
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif; }
