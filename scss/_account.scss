@@ -1,0 +1,104 @@
+// @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+#account{
+    .input-container{
+        max-width: 600px;
+            margin: 60px auto;
+            display: block;
+        .facebook{
+             text-align: center;
+            background: $facebook;
+            border-radius: 4px;
+            color: $white;
+            a{
+                padding: 12px 0;
+                display: block;
+                color: $white;
+                font-size: 16px;
+                text-transform: uppercase;
+                i{
+                    margin-right: 10px;
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .bottom-line{
+            max-width: auto;
+            background: $light-grey;
+            height: 1px;
+            margin: 25px 0 50px 0;
+        }
+
+        // Form Area
+        .access-form{
+            color: $input-green;
+            font-size: 16px;
+            display: block;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+
+            .email-input{
+                font-weight: 300;
+                margin-bottom: 30px;
+                label{
+
+                }
+                input{
+                    width: 100%;
+                    padding: 12px 0 12px 12px;
+                    font-size: 16px;
+                    font-weight: 100;
+                    background: $light-grey;
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    margin-top: 5px;
+                    &:focus{
+                        outline: none;
+                        border: 1px solid $green;
+                    }
+                }
+               
+            }
+
+            .password-input{
+                font-weight: 300;
+                label{
+
+                }
+                input{
+                    width: 100%;
+                    padding: 12px 0 12px 12px;
+                    font-size: 16px;
+                    font-weight: 100;
+                    background: $light-grey;
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    margin: 5px 0 10px 0;
+                    &:focus{
+                        outline: none;
+                        border: 1px solid $green;
+                    }
+                }
+            }
+
+            .submit{
+                input{
+                    width: 100%;
+                    padding: 12px 0;
+                    font-size: 20px;
+                    color: $white;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-family: 'Yanone Kaffeesatz', sans-serif;
+                    font-weight: 700;
+                    background: $green;
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+}

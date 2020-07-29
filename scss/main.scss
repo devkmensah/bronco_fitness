@@ -5,8 +5,12 @@ $dark-grey: #222;
 $yellow: #F29F05;
 $blue: #0484E4;
 $green: #15AEBF;
+$facebook: #3C5997;
+$light-grey: #CBCED2;
+$input-green: #005257;
 
 // imported scss files
+@import 'account';
 // @import 'about_us';
 // @import 'plans';
 // @import 'locations';
@@ -90,8 +94,8 @@ body {
                 font-weight: 600;
                 text-transform: uppercase;
                 color: $white;
-                // border: 1px solid $white;
-                // padding: 10px 20px;
+                border: 1px dashed $white;
+                padding: 10px 20px;
                 transition: all 1s cubic-bezier(1, 0.9, 0.3, 1 );
                 i{
                     padding-right: 5px;

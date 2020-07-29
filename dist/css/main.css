@@ -1,3 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+#account .input-container {
+  max-width: 600px;
+  margin: 60px auto;
+  display: block; }
+  #account .input-container .facebook {
+    text-align: center;
+    background: #3C5997;
+    border-radius: 4px;
+    color: #fff; }
+    #account .input-container .facebook a {
+      padding: 12px 0;
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      text-transform: uppercase; }
+      #account .input-container .facebook a i {
+        margin-right: 10px;
+        font-size: 22px; }
+  #account .input-container .bottom-line {
+    max-width: auto;
+    background: #CBCED2;
+    height: 1px;
+    margin: 25px 0 50px 0; }
+  #account .input-container .access-form {
+    color: #005257;
+    font-size: 16px;
+    display: block;
+    font-family: 'Yanone Kaffeesatz', sans-serif; }
+    #account .input-container .access-form .email-input {
+      font-weight: 300;
+      margin-bottom: 30px; }
+      #account .input-container .access-form .email-input input {
+        width: 100%;
+        padding: 12px 0 12px 12px;
+        font-size: 16px;
+        font-weight: 100;
+        background: #CBCED2;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        margin-top: 5px; }
+        #account .input-container .access-form .email-input input:focus {
+          outline: none;
+          border: 1px solid #15AEBF; }
+    #account .input-container .access-form .password-input {
+      font-weight: 300; }
+      #account .input-container .access-form .password-input input {
+        width: 100%;
+        padding: 12px 0 12px 12px;
+        font-size: 16px;
+        font-weight: 100;
+        background: #CBCED2;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        margin: 5px 0 10px 0; }
+        #account .input-container .access-form .password-input input:focus {
+          outline: none;
+          border: 1px solid #15AEBF; }
+    #account .input-container .access-form .submit input {
+      width: 100%;
+      padding: 12px 0;
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 700;
+      background: #15AEBF;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      letter-spacing: 2px; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,6 +117,8 @@ body {
       font-weight: 600;
       text-transform: uppercase;
       color: #fff;
+      border: 1px dashed #fff;
+      padding: 10px 20px;
       transition: all 1s cubic-bezier(1, 0.9, 0.3, 1); }
       #header .header .log-in .link i {
         padding-right: 5px; }
