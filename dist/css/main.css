@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 #account .input-container {
-  max-width: 600px;
+  max-width: 550px;
   margin: 60px auto;
   display: block; }
   #account .input-container .facebook {
@@ -70,6 +70,43 @@
       border-radius: 4px;
       letter-spacing: 2px; }
 
+.footer-logo .footer-brand .footer-circle {
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  text-transform: uppercase; }
+  .footer-logo .footer-brand .footer-circle i {
+    color: #15AEBF;
+    margin: 0 1px; }
+
+#footer {
+  padding: 40px;
+  background-color: #222; }
+  #footer .footer-items {
+    display: grid;
+    grid-template-columns: auto 350px; }
+    #footer .footer-items .left .footer-logo {
+      margin-bottom: 25px; }
+    #footer .footer-items .left .founded {
+      font-size: 16px; }
+    #footer .footer-items .left .social {
+      margin-top: 25px; }
+      #footer .footer-items .left .social .social-links:first-child {
+        margin-left: 0; }
+      #footer .footer-items .left .social .social-links {
+        margin: 0 10px;
+        font-size: 20px;
+        transition: color 0.5s cubic-bezier(1, 0.3, 0.5, 1);
+        color: #fff; }
+        #footer .footer-items .left .social .social-links:hover {
+          color: #15AEBF; }
+  #footer .copyright {
+    text-align: center; }
+    #footer .copyright .footer-logo {
+      display: inline-block;
+      font-size: 12px; }
+      #footer .copyright .footer-logo .footer-brand .footer-circle {
+        font-size: 8px; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -90,7 +127,7 @@ ul {
 
 body {
   background-color: #fff;
-  font-family: 'Roboto', Helvetica,Arial,sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   color: #fff; }
 
 #header {

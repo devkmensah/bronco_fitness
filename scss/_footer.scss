@@ -1,0 +1,82 @@
+//    Logo Area
+// @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+// #account{
+//     // margin-bottom: 0;
+// }
+.footer-logo {
+
+    .footer-brand {
+        .footer-circle {
+            letter-spacing: 1.5px;
+
+            i {
+                color: $green;
+                margin: 0 1px;
+            }
+
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+#footer {
+    padding: 40px;
+    background-color: $dark-grey;
+   
+   
+
+    .footer-items {
+        //    padding: 50px;
+        display: grid;
+        grid-template-columns: auto 350px;
+
+        .left {
+            .footer-logo {
+                margin-bottom: 25px;
+            }
+
+            .founded {
+                font-size: 16px;
+            }
+
+            .social {
+                margin-top: 25px;
+
+                .social-links:first-child {
+                    margin-left: 0;
+                }
+
+                .social-links {
+                    margin: 0 10px;
+                    font-size: 20px;
+                    transition: color 0.5s cubic-bezier(1, 0.3, 0.5, 1);
+                    color: $white;
+
+                    // color: $green;
+                    &:hover {
+                        color: $green;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // flex: 1;
+        }
+    }
+
+    // Copyright Area
+    .copyright {
+        text-align: center;
+        .footer-logo {
+            display: inline-block;
+            font-size: 12px;
+            .footer-brand{
+                .footer-circle{
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+}
