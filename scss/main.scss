@@ -1,5 +1,9 @@
 // variables
 $white: #fff;
+$grey: #333;
+$dark-grey: #222;
+$yellow: #F29F05;
+$blue: #0484E4;
 
 // imported scss files
 // @import 'about_us';
@@ -8,27 +12,72 @@ $white: #fff;
 // @import 'trainers';
 
 // core styling
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
     cursor: pointer;
+    color: $white;
 }
+
 // .current > a{
 //     // color: not yet defined:
 // }
-ul{
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 1200px;
     padding: 0 17px;
     margin: 0 auto;
 }
-body{
+
+body {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
+    color: $white;
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////
+// HEADER AREA
+#header {
+    background-color: $dark-grey;
+
+    .header {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 5px 0;
+
+        //    Logo Area
+        .logo {
+            .brand {
+                font-size: 50px;
+                text-align: center;
+
+                .circle {
+                    letter-spacing: 1.5px;
+                    text-align: center;
+
+                    i {
+                        // color: $blue;
+                        color: $yellow;
+                        margin: 0 1px;
+                    }
+
+                    font-size: 16px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
 }
