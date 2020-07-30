@@ -43,13 +43,19 @@ ul {
     margin: 0 auto;
 }
 
-
+html{
+    // max-height: 100vh; 
+}
 
 body {
     background-color: #fff;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     color: $white;
+   margin-bottom: 0;
+   line-height: 1.6;
+//    max-height: 100vh; 
 }
+
 
 
 

@@ -97,6 +97,16 @@
                     border: 1px solid transparent;
                     border-radius: 4px;
                     letter-spacing: 2px;
+                    cursor: pointer;
+                    transition: all 1s ease-out;
+                    &:focus{
+                        outline: none;
+                        // border: 1px solid $green;
+                    }
+                    &:hover{
+                        transform: scale(1.01, 1.01);
+                        background: #0a575f;
+                    }
                 }
             }
         }

@@ -68,7 +68,14 @@
       background: #15AEBF;
       border: 1px solid transparent;
       border-radius: 4px;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      cursor: pointer;
+      transition: all 1s ease-out; }
+      #account .input-container .access-form .submit input:focus {
+        outline: none; }
+      #account .input-container .access-form .submit input:hover {
+        transform: scale(1.01, 1.01);
+        background: #0a575f; }
 
 .footer-logo .footer-brand .footer-circle {
   letter-spacing: 1.5px;
@@ -99,11 +106,25 @@
         color: #fff; }
         #footer .footer-items .left .social .social-links:hover {
           color: #15AEBF; }
+    #footer .footer-items .right {
+      padding: 0 0 0 40px; }
+      #footer .footer-items .right h1 {
+        font-size: 32px;
+        margin-bottom: 25px;
+        color: #15AEBF; }
+      #footer .footer-items .right .address, #footer .footer-items .right .email {
+        margin-bottom: 30px; }
+        #footer .footer-items .right .address i, #footer .footer-items .right .email i {
+          margin-right: 15px;
+          color: #15AEBF; }
+      #footer .footer-items .right .phone i {
+        margin-right: 15px;
+        color: #15AEBF; }
   #footer .copyright {
     text-align: center; }
     #footer .copyright .footer-logo {
       display: inline-block;
-      font-size: 12px; }
+      font-size: 10px; }
       #footer .copyright .footer-logo .footer-brand .footer-circle {
         font-size: 8px; }
 
@@ -128,7 +149,9 @@ ul {
 body {
   background-color: #fff;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 1.6; }
 
 #header {
   background-color: #222; }

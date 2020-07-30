@@ -62,7 +62,25 @@
         }
 
         .right {
-            // flex: 1;
+           padding: 0 0 0 40px;
+           h1{
+            font-size: 32px;
+               margin-bottom: 25px;
+               color: $green;
+           }
+           .address, .email{
+               margin-bottom: 30px;
+                   i{
+                       margin-right: 15px;;
+                       color: $green;
+                   }
+           }
+          .phone{
+            i{
+                margin-right: 15px;;
+                color: $green;
+            }
+          }
         }
     }
 
@@ -71,7 +89,8 @@
         text-align: center;
         .footer-logo {
             display: inline-block;
-            font-size: 12px;
+            font-size: 10px;
+            // font-weight: 300;
             .footer-brand{
                 .footer-circle{
                     font-size: 8px;
