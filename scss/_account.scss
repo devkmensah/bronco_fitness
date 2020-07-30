@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 
 #account{
+    min-height: calc(100vh - 480px);
+
     .input-container{
         max-width: 550px;
             margin: 60px auto;
@@ -101,7 +103,6 @@
                     transition: all 1s ease-out;
                     &:focus{
                         outline: none;
-                        // border: 1px solid $green;
                     }
                     &:hover{
                         transform: scale(1.01, 1.01);

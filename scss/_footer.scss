@@ -23,11 +23,10 @@
 #footer {
     padding: 40px;
     background-color: $dark-grey;
-   
+    height: 480px;
    
 
     .footer-items {
-        //    padding: 50px;
         display: grid;
         grid-template-columns: auto 350px;
 
