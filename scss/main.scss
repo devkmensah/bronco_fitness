@@ -28,13 +28,9 @@ body {
     background-color: #fff;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     color: $white;
-   margin-bottom: 0;
-   line-height: 1.6;
-   height: 100%;
-//    margin: 0;
-//    margin: 0 auto;
-//    max-height: 100vh;
-// overflow: hidden;
+    margin-bottom: 0;
+    line-height: 1.6;
+    height: 100%;
 }
 
 a {
@@ -106,8 +102,8 @@ ul {
                 font-weight: 600;
                 text-transform: uppercase;
                 color: $white;
-                border: 1px dashed $white;
-                padding: 10px 20px;
+                // border: 1px solid $white;
+                // padding: 10px 20px;
                 transition: all 1s cubic-bezier(1, 0.9, 0.3, 1);
 
                 i {
@@ -120,4 +116,83 @@ ul {
             }
         }
     }
+}
+
+// Main Area
+#bg-area {
+        background: url(../img/bg34.png) no-repeat center center / cover;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        color: $white;
+        position: relative;
+        color: $white;
+        *{
+            z-index: 1;
+        }
+
+        // overlay for lady image
+        &::before{
+            content: '';
+            position: absolute;
+            background: rgba(0, 0, 0, 0.6);
+            // background: $blue;
+            // opacity: 0.4;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .bg-text{
+            // *{
+            //     z-index: 1;
+            // }
+            // z-index: 0.5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+            color: $white;
+            .move{
+                text-transform: uppercase;
+                font-size: 20px;
+                // z-index: 1;
+            }
+            .line{
+                background: $green;
+                width: 100px;
+                height: 3px;
+                margin-top: 10px;
+                // z-index: 1;
+            }
+            .intro{
+                font-size: 18px;
+                text-transform: capitalize;
+                margin-top: 90px;
+                // z-index: 1;
+            }
+            .face{
+                font-size: 60px;
+                text-transform: uppercase;
+                margin: 40px 0;
+                // z-index: 1;
+            }
+            .join{
+                color: $white;
+                background: $green;
+                padding: 20px 70px;
+                border-radius: 50px;
+                font-size: 20px;
+                text-transform: uppercase;
+                transition: background 1s cubic-bezier(1, 0.6, 0.4, 0.9);
+                // z-index: 1;
+                &:hover{
+                    background: $white;
+                    color: $green;
+                }
+            }
+        }
 }

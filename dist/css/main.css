@@ -181,10 +181,62 @@ ul {
       font-weight: 600;
       text-transform: uppercase;
       color: #fff;
-      border: 1px dashed #fff;
-      padding: 10px 20px;
       transition: all 1s cubic-bezier(1, 0.9, 0.3, 1); }
       #header .header .log-in .link i {
         padding-right: 5px; }
       #header .header .log-in .link:hover {
+        color: #15AEBF; }
+
+#bg-area {
+  background: url(../img/bg34.png) no-repeat center center/cover;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+  color: #fff; }
+  #bg-area * {
+    z-index: 1; }
+  #bg-area::before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  #bg-area .bg-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    color: #fff; }
+    #bg-area .bg-text .move {
+      text-transform: uppercase;
+      font-size: 20px; }
+    #bg-area .bg-text .line {
+      background: #15AEBF;
+      width: 100px;
+      height: 3px;
+      margin-top: 10px; }
+    #bg-area .bg-text .intro {
+      font-size: 18px;
+      text-transform: capitalize;
+      margin-top: 90px; }
+    #bg-area .bg-text .face {
+      font-size: 60px;
+      text-transform: uppercase;
+      margin: 40px 0; }
+    #bg-area .bg-text .join {
+      color: #fff;
+      background: #15AEBF;
+      padding: 20px 70px;
+      border-radius: 50px;
+      font-size: 20px;
+      text-transform: uppercase;
+      transition: background 1s cubic-bezier(1, 0.6, 0.4, 0.9); }
+      #bg-area .bg-text .join:hover {
+        background: #fff;
         color: #15AEBF; }
