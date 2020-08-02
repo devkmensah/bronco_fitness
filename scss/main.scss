@@ -132,7 +132,7 @@ ul {
         }
 
         // overlay for lady image
-        &::before{
+        &::after{
             content: '';
             position: absolute;
             background: rgba(0, 0, 0, 0.6);
