@@ -279,3 +279,16 @@ ul {
         line-height: 36px;
         color: #fff;
         margin: 0 25px 0 5px; }
+
+#hours {
+  background-color: #15AEBF;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; }
+  #hours h3 {
+    font-size: 35px; }
+
+#from {
+  background: #222;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }

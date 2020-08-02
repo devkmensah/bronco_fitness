@@ -243,9 +243,10 @@ ul {
                 &:nth-child(3) {
                     background: $youtube;
                 }
-                i{
-                     border: 1px solid $white;
-                     background: none;
+
+                i {
+                    border: 1px solid $white;
+                    background: none;
                 }
             }
 
@@ -265,4 +266,23 @@ ul {
             }
         }
     }
+}
+
+#hours{
+    background-color: $green;
+    color: $white;
+    text-align: center;
+    padding: 20px 0;
+    // opacity: 0.6;
+    h3{
+        font-size: 35px;
+    }
+
+}
+
+#from{
+    background: $dark-grey;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    // background: $;
 }
