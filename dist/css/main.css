@@ -240,3 +240,42 @@ ul {
       #bg-area .bg-text .join:hover {
         background: #fff;
         color: #15AEBF; }
+  #bg-area .icons {
+    position: fixed;
+    top: 360px;
+    right: 0;
+    overflow-x: hidden;
+    display: block; }
+    #bg-area .icons .icon {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 7px 0 7px 7px;
+      font-size: 20px;
+      border-radius: 50px 0 0 50px;
+      width: 190px;
+      transition: 1s transform ease-out;
+      transform: translateX(130px);
+      overflow-x: hidden;
+      display: block; }
+      #bg-area .icons .icon:hover {
+        transform: translateX(0px);
+        cursor: pointer; }
+        #bg-area .icons .icon:hover:first-child {
+          background: radial-gradient(circle at 30% 100%, #fed373 4%, #f15245 35%, #d92e7f 60%, #9b36b7 84%, #515ecf); }
+        #bg-area .icons .icon:hover:nth-child(2) {
+          background: #0484E4; }
+        #bg-area .icons .icon:hover:nth-child(3) {
+          background: #FF0000; }
+        #bg-area .icons .icon:hover i {
+          border: 1px solid #fff;
+          background: none; }
+      #bg-area .icons .icon:nth-child(2) {
+        margin: 5px 0; }
+      #bg-area .icons .icon i {
+        background: #15AEBF;
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 36px;
+        color: #fff;
+        margin: 0 25px 0 5px; }
