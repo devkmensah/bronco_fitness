@@ -268,19 +268,20 @@ ul {
     }
 }
 
-#hours{
+#hours {
     background-color: $green;
     color: $white;
     text-align: center;
     padding: 20px 0;
+
     // opacity: 0.6;
-    h3{
+    h3 {
         font-size: 35px;
     }
 
 }
 
-#from{
+#from {
     background: $dark-grey;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

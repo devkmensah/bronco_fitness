@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 #account {
-  min-height: calc(100vh - 480px); }
+  min-height: calc(100vh - 480px);
+  position: relative; }
   #account .input-container {
     max-width: 550px;
     margin: 60px auto;
@@ -78,6 +79,45 @@
         #account .input-container .access-form .submit input:hover {
           transform: scale(1.01, 1.01);
           background: #0a575f; }
+  #account .icons {
+    position: fixed;
+    top: 360px;
+    right: 0;
+    overflow-x: hidden;
+    display: block; }
+    #account .icons .icon {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 7px 0 7px 7px;
+      font-size: 20px;
+      border-radius: 50px 0 0 50px;
+      width: 190px;
+      transition: 1s transform ease-out;
+      transform: translateX(130px);
+      overflow-x: hidden;
+      display: block; }
+      #account .icons .icon:hover {
+        transform: translateX(0px);
+        cursor: pointer; }
+        #account .icons .icon:hover:first-child {
+          background: radial-gradient(circle at 30% 100%, #fed373 4%, #f15245 35%, #d92e7f 60%, #9b36b7 84%, #515ecf); }
+        #account .icons .icon:hover:nth-child(2) {
+          background: #0484E4; }
+        #account .icons .icon:hover:nth-child(3) {
+          background: #FF0000; }
+        #account .icons .icon:hover i {
+          border: 1px solid #fff;
+          background: none; }
+      #account .icons .icon:nth-child(2) {
+        margin: 5px 0; }
+      #account .icons .icon i {
+        background: #15AEBF;
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 36px;
+        color: #fff;
+        margin: 0 25px 0 5px; }
 
 .footer-logo .footer-brand .footer-circle {
   letter-spacing: 1.5px;

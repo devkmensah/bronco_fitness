@@ -2,33 +2,36 @@
 // @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 
-#account{
+#account {
     min-height: calc(100vh - 480px);
+    position: relative;
 
-    .input-container{
+    .input-container {
         max-width: 550px;
-            margin: 60px auto;
-            display: block;
-        .facebook{
-             text-align: center;
+        margin: 60px auto;
+        display: block;
+
+        .facebook {
+            text-align: center;
             background: $facebook;
             border-radius: 4px;
-            color: $white
-            ;
-            a{
+            color: $white;
+
+            a {
                 padding: 12px 0;
                 display: block;
                 color: $white;
                 font-size: 16px;
                 text-transform: uppercase;
-                i{
+
+                i {
                     margin-right: 10px;
                     font-size: 22px;
                 }
             }
         }
 
-        .bottom-line{
+        .bottom-line {
             max-width: auto;
             background: $light-grey;
             height: 1px;
@@ -36,19 +39,19 @@
         }
 
         // Form Area
-        .access-form{
+        .access-form {
             color: $input-green;
             font-size: 16px;
             display: block;
             font-family: 'Yanone Kaffeesatz', sans-serif;
 
-            .email-input{
+            .email-input {
                 font-weight: 300;
                 margin-bottom: 30px;
-                label{
 
-                }
-                input{
+                label {}
+
+                input {
                     width: 100%;
                     padding: 12px 0 12px 12px;
                     font-size: 16px;
@@ -57,20 +60,21 @@
                     border: 1px solid transparent;
                     border-radius: 4px;
                     margin-top: 5px;
-                    &:focus{
+
+                    &:focus {
                         outline: none;
                         border: 1px solid $green;
                     }
                 }
-               
+
             }
 
-            .password-input{
+            .password-input {
                 font-weight: 300;
-                label{
 
-                }
-                input{
+                label {}
+
+                input {
                     width: 100%;
                     padding: 12px 0 12px 12px;
                     font-size: 16px;
@@ -79,15 +83,16 @@
                     border: 1px solid transparent;
                     border-radius: 4px;
                     margin: 5px 0 10px 0;
-                    &:focus{
+
+                    &:focus {
                         outline: none;
                         border: 1px solid $green;
                     }
                 }
             }
 
-            .submit{
-                input{
+            .submit {
+                input {
                     width: 100%;
                     padding: 12px 0;
                     font-size: 20px;
@@ -102,14 +107,79 @@
                     letter-spacing: 2px;
                     cursor: pointer;
                     transition: all 1s ease-out;
-                    &:focus{
+
+                    &:focus {
                         outline: none;
                     }
-                    &:hover{
+
+                    &:hover {
                         transform: scale(1.01, 1.01);
                         background: #0a575f;
                     }
                 }
+            }
+        }
+    }
+
+    // Right side Icons Area
+    .icons {
+        position: fixed;
+        top: 360px;
+        right: 0;
+        overflow-x: hidden;
+        display: block;
+
+        .icon {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 7px 0 7px 7px;
+            font-size: 20px;
+            border-radius: 50px 0 0 50px;
+            width: 190px;
+            transition: 1s transform ease-out;
+            transform: translateX(130px);
+            overflow-x: hidden;
+            display: block;
+
+            &:hover {
+                transform: translateX(0px);
+                cursor: pointer;
+
+                &:first-child {
+                    background: radial-gradient(circle at 30% 100%,
+                            #fed373 4%,
+                            #f15245 35%,
+                            #d92e7f 60%,
+                            #9b36b7 84%,
+                            #515ecf);
+                }
+
+                &:nth-child(2) {
+                    background: $blue;
+                }
+
+                &:nth-child(3) {
+                    background: $youtube;
+                }
+
+                i {
+                    border: 1px solid $white;
+                    background: none;
+                }
+            }
+
+            &:nth-child(2) {
+                margin: 5px 0;
+            }
+
+            i {
+                background: $green;
+                width: 37px;
+                height: 37px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 36px;
+                color: $white;
+                margin: 0 25px 0 5px;
             }
         }
     }
