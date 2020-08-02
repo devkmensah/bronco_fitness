@@ -268,6 +268,7 @@ ul {
     }
 }
 
+// 24 Hours Area
 #hours {
     background-color: $green;
     color: $white;
@@ -281,9 +282,66 @@ ul {
 
 }
 
+// From Area
 #from {
-    background: $dark-grey;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    // background: $;
+
+
+
+    .from-item {
+
+        // Left Side
+        &:first-child {
+            background: $white;
+            color: $dark-grey;
+        }
+
+        // Right Side
+        &:last-child {
+            background: $dark-grey;
+            color: $white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 0;
+            // justify-content: center;
+            h3 {
+                text-transform: uppercase;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+            .per-month {
+                position: relative;
+
+                span:first-child {
+                    font-size: 40px;
+                    padding-bottom: 10px;
+                    position: absolute;
+                    top: 25px;
+                    left: -25px;
+                    font-weight: 700;
+                }
+
+                span:nth-child(2) {
+                    font-size: 100px;
+                    font-weight: 700;
+                }
+            }
+
+            .list-items {
+                text-align: center;
+                max-width: 300px;
+                // margin: auto;
+                // display: block;
+                li {
+                    border-bottom: 1px solid $light-grey;
+                    // width: 50%;
+                    text-align: center;
+                   
+                }
+            }
+        }
+    }
 }

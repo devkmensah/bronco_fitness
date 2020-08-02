@@ -329,6 +329,37 @@ ul {
     font-size: 35px; }
 
 #from {
-  background: #222;
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
+  #from .from-item:first-child {
+    background: #fff;
+    color: #222; }
+  #from .from-item:last-child {
+    background: #222;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0; }
+    #from .from-item:last-child h3 {
+      text-transform: uppercase;
+      font-size: 30px;
+      margin-bottom: 20px; }
+    #from .from-item:last-child .per-month {
+      position: relative; }
+      #from .from-item:last-child .per-month span:first-child {
+        font-size: 40px;
+        padding-bottom: 10px;
+        position: absolute;
+        top: 25px;
+        left: -25px;
+        font-weight: 700; }
+      #from .from-item:last-child .per-month span:nth-child(2) {
+        font-size: 100px;
+        font-weight: 700; }
+    #from .from-item:last-child .list-items {
+      text-align: center;
+      max-width: 300px; }
+      #from .from-item:last-child .list-items li {
+        border-bottom: 1px solid #CBCED2;
+        text-align: center; }
