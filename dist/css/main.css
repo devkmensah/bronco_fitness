@@ -228,7 +228,7 @@ ul {
         color: #15AEBF; }
 
 #bg-area {
-  background: url(../img/bg34.png) no-repeat center center/cover;
+  background: url(../images/bg34.png) no-repeat center center/cover;
   display: block;
   width: 100%;
   height: 100vh;
@@ -365,10 +365,16 @@ ul {
       display: flex;
       margin-top: 60px; }
       #join .join-item:first-child .row-images .column-images {
+        flex: 50%;
         margin: 0 3px;
         max-width: 50%; }
-        #join .join-item:first-child .row-images .column-images img {
-          width: 100%; }
+        #join .join-item:first-child .row-images .column-images .image-contain {
+          margin-top: 6px; }
+          #join .join-item:first-child .row-images .column-images .image-contain img {
+            width: 100%;
+            display: block; }
+            #join .join-item:first-child .row-images .column-images .image-contain img:hover {
+              opacity: 0.7; }
   #join .join-item:last-child {
     background: #222;
     color: #fff;

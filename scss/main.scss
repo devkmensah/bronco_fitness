@@ -119,7 +119,7 @@ ul {
 
 // Main Area
 #bg-area {
-    background: url(../img/bg34.png) no-repeat center center / cover;
+    background: url(../images/bg34.png) no-repeat center center / cover;
     display: block;
     width: 100%;
     height: 100vh;
@@ -339,16 +339,21 @@ ul {
                 margin-top: 60px;
 
                 .column-images {
+                    flex: 50%;
                     margin: 0 3px;
                     max-width: 50%;
-
-                    img {
-                        width: 100%;
-                        // display: block;
-                    }
-
-                    .image-link {
-                        // padding: 5px 0;
+                    
+                    .image-contain{
+                        margin-top: 6px;
+    
+                        img {
+                            width: 100%;
+                            &:hover {
+                                opacity: 0.7;
+                            }
+    
+                            display: block;
+                        }
                     }
                 }
             }
