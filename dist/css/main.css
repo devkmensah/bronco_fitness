@@ -221,7 +221,7 @@ ul {
       font-weight: 600;
       text-transform: uppercase;
       color: #fff;
-      transition: all 1s cubic-bezier(1, 0.9, 0.3, 1); }
+      transition: all 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
       #header .header .log-in .link i {
         padding-right: 5px; }
       #header .header .log-in .link:hover {
@@ -276,7 +276,7 @@ ul {
       border-radius: 50px;
       font-size: 20px;
       text-transform: uppercase;
-      transition: background 1s cubic-bezier(1, 0.6, 0.4, 0.9); }
+      transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
       #bg-area .bg-text .btn-big:hover {
         background: #fff;
         color: #15AEBF; }
@@ -333,9 +333,33 @@ ul {
   grid-template-columns: repeat(2, 1fr); }
   #join .join-item:first-child {
     background: #fff;
-    color: #222; }
+    color: #222;
+    padding: 50px; }
     #join .join-item:first-child a {
       color: #222; }
+    #join .join-item:first-child h3 {
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-bottom: 50px; }
+    #join .join-item:first-child p {
+      line-height: 1.6;
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 50px; }
+    #join .join-item:first-child .btn-long {
+      padding: 15px 0;
+      display: block;
+      background: #15AEBF;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
+      #join .join-item:first-child .btn-long:hover {
+        background: #fff;
+        border: 1px solid #15AEBF;
+        color: #15AEBF; }
   #join .join-item:last-child {
     background: #222;
     color: #fff;
@@ -355,7 +379,8 @@ ul {
         width: 100%;
         text-align: center;
         font-size: 18px;
-        padding: 18px 0; }
+        padding: 18px 0;
+        font-weight: 300; }
         #join .join-item:last-child .list-items li:first-child {
           border-bottom: none;
           padding: 0; }
@@ -363,7 +388,8 @@ ul {
           padding: 0 0 18px 0; }
         #join .join-item:last-child .list-items li:last-child {
           border-bottom: none;
-          margin-top: 20px; }
+          margin-top: 20px;
+          font-weight: 700; }
           #join .join-item:last-child .list-items li:last-child .btn-long {
             padding: 15px 0;
             border-radius: 50px;
@@ -372,7 +398,7 @@ ul {
             color: #fff;
             text-transform: uppercase;
             font-size: 16px;
-            transition: background 1s cubic-bezier(1, 0.6, 0.4, 0.9); }
+            transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
             #join .join-item:last-child .list-items li:last-child .btn-long:hover {
               background: #fff;
               color: #15AEBF; }
@@ -390,4 +416,6 @@ ul {
           font-weight: 700; }
         #join .join-item:last-child .list-items .per-month span:nth-child(2) {
           font-size: 100px;
+          font-weight: 700; }
+        #join .join-item:last-child .list-items .per-month span:last-child {
           font-weight: 700; }
