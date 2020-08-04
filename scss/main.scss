@@ -1,8 +1,6 @@
 // variables
 $white: #fff;
-$grey: #333;
 $dark-grey: #222;
-$yellow: #F29F05;
 $blue: #0484E4;
 $green: #15AEBF;
 $facebook: #3C5997;
@@ -282,19 +280,22 @@ ul {
 
 }
 
-// From Area
-#from {
+// Join Area
+#join {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
 
 
-    .from-item {
+    .join-item {
 
         // Left Side
         &:first-child {
             background: $white;
             color: $dark-grey;
+            a{
+                color: $dark-grey;
+            }
         }
 
         // Right Side

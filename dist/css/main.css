@@ -328,41 +328,43 @@ ul {
   #hours h3 {
     font-size: 35px; }
 
-#from {
+#join {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
-  #from .from-item:first-child {
+  #join .join-item:first-child {
     background: #fff;
     color: #222; }
-  #from .from-item:last-child {
+    #join .join-item:first-child a {
+      color: #222; }
+  #join .join-item:last-child {
     background: #222;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 0; }
-    #from .from-item:last-child .list-items {
+    #join .join-item:last-child .list-items {
       max-width: 400px;
       -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.09);
       -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.09);
       box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.09);
       text-align: center;
       padding: 0 50px; }
-      #from .from-item:last-child .list-items li {
+      #join .join-item:last-child .list-items li {
         border-bottom: 1px solid rgba(255, 255, 255, 0.33);
         width: 100%;
         text-align: center;
         font-size: 18px;
         padding: 18px 0; }
-        #from .from-item:last-child .list-items li:first-child {
+        #join .join-item:last-child .list-items li:first-child {
           border-bottom: none;
           padding: 0; }
-        #from .from-item:last-child .list-items li:nth-child(2) {
+        #join .join-item:last-child .list-items li:nth-child(2) {
           padding: 0 0 18px 0; }
-        #from .from-item:last-child .list-items li:last-child {
+        #join .join-item:last-child .list-items li:last-child {
           border-bottom: none;
           margin-top: 20px; }
-          #from .from-item:last-child .list-items li:last-child .btn-long {
+          #join .join-item:last-child .list-items li:last-child .btn-long {
             padding: 15px 0;
             border-radius: 50px;
             display: block;
@@ -371,21 +373,21 @@ ul {
             text-transform: uppercase;
             font-size: 16px;
             transition: background 1s cubic-bezier(1, 0.6, 0.4, 0.9); }
-            #from .from-item:last-child .list-items li:last-child .btn-long:hover {
+            #join .join-item:last-child .list-items li:last-child .btn-long:hover {
               background: #fff;
               color: #15AEBF; }
-      #from .from-item:last-child .list-items h3 {
+      #join .join-item:last-child .list-items h3 {
         text-transform: uppercase;
         font-size: 25px; }
-      #from .from-item:last-child .list-items .per-month {
+      #join .join-item:last-child .list-items .per-month {
         position: relative; }
-        #from .from-item:last-child .list-items .per-month span:first-child {
+        #join .join-item:last-child .list-items .per-month span:first-child {
           font-size: 40px;
           padding-bottom: 10px;
           position: absolute;
           top: 25px;
           left: 38px;
           font-weight: 700; }
-        #from .from-item:last-child .list-items .per-month span:nth-child(2) {
+        #join .join-item:last-child .list-items .per-month span:nth-child(2) {
           font-size: 100px;
           font-weight: 700; }
