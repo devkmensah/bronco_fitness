@@ -336,7 +336,7 @@ ul {
             // Lightbox Images
             .row-images {
                 display: flex;
-                margin-top: 60px;
+                margin-top: 30px;
 
                 .column-images {
                     flex: 50%;
@@ -345,6 +345,7 @@ ul {
                     
                     .image-contain{
                         margin-top: 6px;
+                        text-align: center;
     
                         img {
                             width: 100%;

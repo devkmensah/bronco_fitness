@@ -363,13 +363,14 @@ ul {
         color: #15AEBF; }
     #join .join-item:first-child .row-images {
       display: flex;
-      margin-top: 60px; }
+      margin-top: 30px; }
       #join .join-item:first-child .row-images .column-images {
         flex: 50%;
         margin: 0 3px;
         max-width: 50%; }
         #join .join-item:first-child .row-images .column-images .image-contain {
-          margin-top: 6px; }
+          margin-top: 6px;
+          text-align: center; }
           #join .join-item:first-child .row-images .column-images .image-contain img {
             width: 100%;
             display: block; }
