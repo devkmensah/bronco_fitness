@@ -293,7 +293,7 @@ ul {
       border-radius: 50px 0 0 50px;
       width: 190px;
       transition: 1s transform ease-out;
-      transform: translateX(130px);
+      transform: translateX(134px);
       overflow-x: hidden;
       display: block; }
       #bg-area .icons .icon:hover {
@@ -366,7 +366,7 @@ ul {
       margin-top: 30px; }
       #join .join-item:first-child .row-images .column-images {
         flex: 50%;
-        margin: 0 3px;
+        margin: 0 8px;
         max-width: 50%; }
         #join .join-item:first-child .row-images .column-images .image-contain {
           margin-top: 6px;
@@ -436,3 +436,54 @@ ul {
           font-weight: 700; }
         #join .join-item:last-child .list-items .per-month span:last-child {
           font-weight: 700; }
+
+#plans {
+  background: rgba(0, 0, 0, 0.09);
+  color: #fff;
+  padding: 100px 0; }
+  #plans .plans-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap; }
+    #plans .plans-container .monthly, #plans .plans-container .yearly {
+      padding: 40px 0; }
+    #plans .plans-container .plan {
+      height: 100%;
+      width: 320px;
+      background: #222;
+      color: #fff;
+      margin: 0 10px 20px;
+      transition: transform .35s; }
+      #plans .plans-container .plan:hover {
+        transform: scale(1.05, 1.05); }
+      #plans .plans-container .plan h2 {
+        padding: 8px;
+        width: 100%;
+        background: #fff;
+        color: #15AEBF; }
+      #plans .plans-container .plan .standard {
+        background: #15AEBF;
+        color: #fff; }
+      #plans .plans-container .plan .btn-small {
+        padding: 10px 31px;
+        border-radius: 5px;
+        margin: 25px 90px;
+        display: block;
+        border: 1px solid #15AEBF;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
+        #plans .plans-container .plan .btn-small:hover {
+          background: #15AEBF; }
+      #plans .plans-container .plan .plans-list li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 15px 0; }
+        #plans .plans-container .plan .plans-list li:first-child {
+          border-top: 1px solid rgba(0, 0, 0, 0.2); }
+    #plans .plans-container .second {
+      transform: translateY(-5px); }

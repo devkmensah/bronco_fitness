@@ -217,7 +217,7 @@ ul {
             border-radius: 50px 0 0 50px;
             width: 190px;
             transition: 1s transform ease-out;
-            transform: translateX(130px);
+            transform: translateX(134px);
             overflow-x: hidden;
             display: block;
 
@@ -336,23 +336,25 @@ ul {
             // Lightbox Images
             .row-images {
                 display: flex;
+                // flex-wrap: wrap;
                 margin-top: 30px;
 
                 .column-images {
                     flex: 50%;
-                    margin: 0 3px;
+                    margin: 0 8px;
                     max-width: 50%;
-                    
-                    .image-contain{
+
+                    .image-contain {
                         margin-top: 6px;
                         text-align: center;
-    
+
                         img {
                             width: 100%;
+
                             &:hover {
                                 opacity: 0.7;
                             }
-    
+
                             display: block;
                         }
                     }
@@ -450,6 +452,102 @@ ul {
 
                 }
             }
+        }
+    }
+}
+
+#plans {
+    // background: $dark-grey;
+    background: rgba(0, 0, 0, 0.09);
+    color: $white;
+    padding: 100px 0;
+
+    .plans-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 20px 0;
+        // background: rgba(0, 0, 0, 0.09);
+        // background: $dark-grey;
+        // opacity: 0.93;
+        flex-wrap: wrap;
+        .monthly, .yearly{
+            padding: 40px 0;
+        }
+
+        .plan {
+            height: 100%;
+            width: 320px;
+            background: $dark-grey;
+            // background: $white;
+            // background: rgba(0, 0, 0, 0.09);
+            color: $white;
+            // color: $dark-grey;
+            margin: 0 10px 20px;
+            transition: transform .35s;
+
+            &:hover{
+                transform: scale(1.05, 1.05);
+            }
+            
+            
+
+            h2 {
+                padding: 8px;
+                width: 100%;
+                // background: $dark-grey;
+                background: $white;
+                // background: $green;
+                // color: $white;
+                color: $green;
+                // color: $dark-grey;
+
+            }
+
+            .standard {
+                background: $green;
+                // background: $white;
+                // color: $green;
+                color: $white;
+            }
+
+            .btn-small {
+                padding: 10px 31px;
+                border-radius: 5px;
+                margin: 25px 90px;
+                // display: inline-block;
+                display: block;
+
+                // background: $green;
+                border: 1px solid $green;
+                color: $white;
+                // text-transform: uppercase;
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+                transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9);
+
+                &:hover {
+                    // padding: 14px 0;
+                    background: $green;
+                    // border: 1px solid $green;
+                    // color: $green;
+                }
+            }
+            .plans-list{
+
+                li{
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+                    padding: 15px 0;
+                    &:first-child{
+                        border-top: 1px solid rgba(0, 0, 0, 0.2);
+                    }
+                }
+            }
+        }
+        .second{
+            transform: translateY(-5px);
         }
     }
 }
