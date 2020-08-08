@@ -523,6 +523,8 @@ ul {
         -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
         -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
         box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29); }
+      #plans .plans-boxes .plan h3 {
+        font-size: 45px; }
       #plans .plans-boxes .plan h2 {
         padding: 8px;
         width: 100%;
