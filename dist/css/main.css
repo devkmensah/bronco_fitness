@@ -79,45 +79,6 @@
         #account .input-container .access-form .submit input:hover {
           transform: scale(1.01, 1.01);
           background: #0a575f; }
-  #account .icons {
-    position: fixed;
-    top: 360px;
-    right: 0;
-    overflow-x: hidden;
-    display: block; }
-    #account .icons .icon {
-      background: rgba(0, 0, 0, 0.6);
-      padding: 7px 0 7px 7px;
-      font-size: 20px;
-      border-radius: 50px 0 0 50px;
-      width: 190px;
-      transition: 1s transform ease-out;
-      transform: translateX(130px);
-      overflow-x: hidden;
-      display: block; }
-      #account .icons .icon:hover {
-        transform: translateX(0px);
-        cursor: pointer; }
-        #account .icons .icon:hover:first-child {
-          background: radial-gradient(circle at 30% 100%, #fed373 4%, #f15245 35%, #d92e7f 60%, #9b36b7 84%, #515ecf); }
-        #account .icons .icon:hover:nth-child(2) {
-          background: #0484E4; }
-        #account .icons .icon:hover:nth-child(3) {
-          background: #FF0000; }
-        #account .icons .icon:hover i {
-          border: 1px solid #fff;
-          background: none; }
-      #account .icons .icon:nth-child(2) {
-        margin: 5px 0; }
-      #account .icons .icon i {
-        background: #15AEBF;
-        width: 37px;
-        height: 37px;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 36px;
-        color: #fff;
-        margin: 0 25px 0 5px; }
 
 .footer-logo .footer-brand .footer-circle {
   letter-spacing: 1.5px;
@@ -168,8 +129,10 @@
     #footer .copyright .footer-logo {
       display: inline-block;
       font-size: 10px; }
-      #footer .copyright .footer-logo .footer-brand .footer-circle {
-        font-size: 8px; }
+      #footer .copyright .footer-logo .footer-brand {
+        padding-top: 50px; }
+        #footer .copyright .footer-logo .footer-brand .footer-circle {
+          font-size: 8px; }
 
 * {
   box-sizing: border-box;
@@ -280,45 +243,46 @@ ul {
       #bg-area .bg-text .btn-big:hover {
         background: #fff;
         color: #15AEBF; }
-  #bg-area .icons {
-    position: fixed;
-    top: 360px;
-    right: 0;
+
+.icons {
+  position: fixed;
+  top: 360px;
+  right: 0;
+  overflow-x: hidden;
+  display: block; }
+  .icons .icon {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 7px 0 7px 7px;
+    font-size: 20px;
+    border-radius: 50px 0 0 50px;
+    width: 190px;
+    transition: 1s transform ease-out;
+    transform: translateX(134px);
     overflow-x: hidden;
     display: block; }
-    #bg-area .icons .icon {
-      background: rgba(0, 0, 0, 0.6);
-      padding: 7px 0 7px 7px;
-      font-size: 20px;
-      border-radius: 50px 0 0 50px;
-      width: 190px;
-      transition: 1s transform ease-out;
-      transform: translateX(134px);
-      overflow-x: hidden;
-      display: block; }
-      #bg-area .icons .icon:hover {
-        transform: translateX(0px);
-        cursor: pointer; }
-        #bg-area .icons .icon:hover:first-child {
-          background: radial-gradient(circle at 30% 100%, #fed373 4%, #f15245 35%, #d92e7f 60%, #9b36b7 84%, #515ecf); }
-        #bg-area .icons .icon:hover:nth-child(2) {
-          background: #0484E4; }
-        #bg-area .icons .icon:hover:nth-child(3) {
-          background: #FF0000; }
-        #bg-area .icons .icon:hover i {
-          border: 1px solid #fff;
-          background: none; }
-      #bg-area .icons .icon:nth-child(2) {
-        margin: 5px 0; }
-      #bg-area .icons .icon i {
-        background: #15AEBF;
-        width: 37px;
-        height: 37px;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 36px;
-        color: #fff;
-        margin: 0 25px 0 5px; }
+    .icons .icon:hover {
+      transform: translateX(0px);
+      cursor: pointer; }
+      .icons .icon:hover:first-child {
+        background: radial-gradient(circle at 30% 100%, #fed373 4%, #f15245 35%, #d92e7f 60%, #9b36b7 84%, #515ecf); }
+      .icons .icon:hover:nth-child(2) {
+        background: #0484E4; }
+      .icons .icon:hover:nth-child(3) {
+        background: #FF0000; }
+      .icons .icon:hover i {
+        border: 1px solid #fff;
+        background: none; }
+    .icons .icon:nth-child(2) {
+      margin: 5px 0; }
+    .icons .icon i {
+      background: #15AEBF;
+      width: 37px;
+      height: 37px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 36px;
+      color: #fff;
+      margin: 0 25px 0 5px; }
 
 #hours {
   background-color: #15AEBF;
@@ -553,3 +517,12 @@ ul {
           border-top: 1px solid rgba(0, 0, 0, 0.2); }
     #plans .plans-boxes .second {
       transform: translateY(-5px); }
+
+#trainers-area {
+  background: url(../images/bg33.png) no-repeat center center/cover;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+  color: #fff; }
