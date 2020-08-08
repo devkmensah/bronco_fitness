@@ -11,9 +11,8 @@ $youtube: #FF0000;
 // imported scss files
 @import 'account';
 // @import 'about_us';
-// @import 'plans';
 // @import 'locations';
-// @import 'trainers';
+@import 'trainers';
 @import 'footer';
 
 // core styling
@@ -125,7 +124,6 @@ ul {
     height: 100vh;
     color: $white;
     position: relative;
-    color: $white;
 
     * {
         z-index: 1;
@@ -654,20 +652,5 @@ ul {
 }
 
 
-// Trainers Area Start
-#trainers-area {
-    background: url(../images/bg33.png) no-repeat center center / cover;
-    display: block;
-    width: 100%;
-    height: 100vh;
-    color: $white;
-    position: relative;
-    color: $white;
 
-
-
-
-}
-
-// Trainers Area Ends
 
