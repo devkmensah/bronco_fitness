@@ -462,7 +462,95 @@ ul {
     color: $white;
     padding: 100px 0;
 
-    .plans-container {
+    // Btn Toggle Area
+    .toggle-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        color: $dark-grey;
+        h1{
+            font-size: 35px;
+        }
+
+        .btn-toggle {
+            margin-top: 35px;
+
+            .month,
+            .annual {
+               font-size: 18px;
+               vertical-align: middle;
+            }
+
+            .btn-switch {
+                position: relative;
+                display: inline-block;
+                width: 62px;
+                height: 35px;
+                vertical-align: middle;
+                margin: 0 30px;
+
+
+                #btn-checkbox {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    display: inline-block;
+                    vertical-align: middle;
+                    // margin: 12px 0;
+
+                }
+
+                .btn-slider {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    background: $dark-grey;
+                    border-radius: 50px;
+                    transform: translate(0px, 0px);
+                    transition: transform 0.7s, box-shadow 0.7s;
+                    -webkit-box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.65);
+                    -moz-box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.65);
+                    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.65);
+
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        background: $white;
+                        height: 27px;
+                        width: 27px;
+                        border-radius: 50px;
+                        left: 5px;
+                        top: 4px;
+                        transition: transform 0.5s;
+                    }
+                }
+
+                // btn-slider effect to slide to left & right
+                #btn-checkbox:checked+.btn-slider::before {
+                    -webkit-transform: translateX(25px);
+                    -ms-transform: translateX(25px);
+                    transform: translateX(25px);
+                }
+
+                #btn-checkbox:checked+.btn-slider {
+                    background: $green;
+                }
+
+                #btn-checkbox:focus+.btn-slider {
+                    box-shadow: 0 0 1px 0 $green;
+                }
+            }
+
+        }
+    }
+
+    .plans-boxes {
         display: flex;
         align-items: center;
         text-align: center;
@@ -472,7 +560,9 @@ ul {
         // background: $dark-grey;
         // opacity: 0.93;
         flex-wrap: wrap;
-        .monthly, .annually{
+
+        .monthly,
+        .annually {
             padding: 40px 0;
         }
 
@@ -486,15 +576,16 @@ ul {
             // color: $dark-grey;
             margin: 0 10px 20px;
             transition: transform .35s;
+
             // border-radius: 50px 50px 0 0;
-            &:hover{
+            &:hover {
                 transform: scale(1.05, 1.05);
                 -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
                 -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
                 box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
             }
-            
-            
+
+
 
             h2 {
                 padding: 8px;
@@ -539,18 +630,20 @@ ul {
                     // color: $green;
                 }
             }
-            .plans-list{
 
-                li{
+            .plans-list {
+                li {
                     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
                     padding: 15px 0;
-                    &:first-child{
+
+                    &:first-child {
                         border-top: 1px solid rgba(0, 0, 0, 0.2);
                     }
                 }
             }
         }
-        .second{
+
+        .second {
             transform: translateY(-5px);
         }
     }

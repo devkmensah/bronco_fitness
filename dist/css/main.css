@@ -441,36 +441,97 @@ ul {
   background: rgba(0, 0, 0, 0.09);
   color: #fff;
   padding: 100px 0; }
-  #plans .plans-container {
+  #plans .toggle-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: #222; }
+    #plans .toggle-area h1 {
+      font-size: 35px; }
+    #plans .toggle-area .btn-toggle {
+      margin-top: 35px; }
+      #plans .toggle-area .btn-toggle .month,
+      #plans .toggle-area .btn-toggle .annual {
+        font-size: 18px;
+        vertical-align: middle; }
+      #plans .toggle-area .btn-toggle .btn-switch {
+        position: relative;
+        display: inline-block;
+        width: 62px;
+        height: 35px;
+        vertical-align: middle;
+        margin: 0 30px; }
+        #plans .toggle-area .btn-toggle .btn-switch #btn-checkbox {
+          opacity: 0;
+          width: 0;
+          height: 0;
+          display: inline-block;
+          vertical-align: middle; }
+        #plans .toggle-area .btn-toggle .btn-switch .btn-slider {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: #222;
+          border-radius: 50px;
+          transform: translate(0px, 0px);
+          transition: transform 0.7s, box-shadow 0.7s;
+          -webkit-box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.65);
+          -moz-box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.65);
+          box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.65); }
+          #plans .toggle-area .btn-toggle .btn-switch .btn-slider::before {
+            position: absolute;
+            content: "";
+            background: #fff;
+            height: 27px;
+            width: 27px;
+            border-radius: 50px;
+            left: 5px;
+            top: 4px;
+            transition: transform 0.5s; }
+        #plans .toggle-area .btn-toggle .btn-switch #btn-checkbox:checked + .btn-slider::before {
+          -webkit-transform: translateX(25px);
+          -ms-transform: translateX(25px);
+          transform: translateX(25px); }
+        #plans .toggle-area .btn-toggle .btn-switch #btn-checkbox:checked + .btn-slider {
+          background: #15AEBF; }
+        #plans .toggle-area .btn-toggle .btn-switch #btn-checkbox:focus + .btn-slider {
+          box-shadow: 0 0 1px 0 #15AEBF; }
+  #plans .plans-boxes {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     padding: 20px 0;
     flex-wrap: wrap; }
-    #plans .plans-container .monthly, #plans .plans-container .annually {
+    #plans .plans-boxes .monthly,
+    #plans .plans-boxes .annually {
       padding: 40px 0; }
-    #plans .plans-container .plan {
+    #plans .plans-boxes .plan {
       height: 100%;
       width: 350px;
       background: #222;
       color: #fff;
       margin: 0 10px 20px;
       transition: transform .35s; }
-      #plans .plans-container .plan:hover {
+      #plans .plans-boxes .plan:hover {
         transform: scale(1.05, 1.05);
         -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
         -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
         box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29); }
-      #plans .plans-container .plan h2 {
+      #plans .plans-boxes .plan h2 {
         padding: 8px;
         width: 100%;
         background: #fff;
         color: #15AEBF; }
-      #plans .plans-container .plan .standard {
+      #plans .plans-boxes .plan .standard {
         background: #15AEBF;
         color: #fff; }
-      #plans .plans-container .plan .btn-small {
+      #plans .plans-boxes .plan .btn-small {
         padding: 10px 31px;
         border-radius: 5px;
         margin: 25px 90px;
@@ -481,12 +542,12 @@ ul {
         font-weight: 700;
         text-align: center;
         transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
-        #plans .plans-container .plan .btn-small:hover {
+        #plans .plans-boxes .plan .btn-small:hover {
           background: #15AEBF; }
-      #plans .plans-container .plan .plans-list li {
+      #plans .plans-boxes .plan .plans-list li {
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         padding: 15px 0; }
-        #plans .plans-container .plan .plans-list li:first-child {
+        #plans .plans-boxes .plan .plans-list li:first-child {
           border-top: 1px solid rgba(0, 0, 0, 0.2); }
-    #plans .plans-container .second {
+    #plans .plans-boxes .second {
       transform: translateY(-5px); }
