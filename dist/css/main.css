@@ -169,6 +169,17 @@
       #trainers-area .contain .trainer-box h5 {
         text-align: center; }
 
+#join-area {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #222; }
+  #join-area .create {
+    display: flex;
+    flex-direction: column; }
+
 .footer-logo .footer-brand .footer-circle {
   letter-spacing: 1.5px;
   font-size: 16px;

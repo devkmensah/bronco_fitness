@@ -58,7 +58,7 @@
                 </li>
                 <li>
                     <!-- log in -->
-                        <span class="vertical-line"></span>
+                    <span class="vertical-line"></span>
                     <a href="account.html" class="link">
                         log in
                     </a>
@@ -68,43 +68,85 @@
     </header>
 
     <!-- Input Area -->
-    <main id="account">
-        <div class="input-container">
+    <main id="join-area">
+        <section class="top-image">
+            Join
+        </section>
 
-            <div class="facebook">
-                <a href="https://facebook.com" target="new"><i class="fab fa-facebook-f"></i>login with facebook</a>
+
+        <section id="sign-up">
+            <div class="sign-up-contain">
+                <!-- Top Area -->
+                <h1>Sign Up</h1>
+                <h3>Create Account</h3>
+
+                <!-- Sign Up Form -->
+                <form action="#" class="sign-up-area">
+                    <div class="create">
+                        <label for="f-name">First Name:</label>
+                        <input type="text" name="f-name" id="f-name">
+                    </div>
+                    <div class="create">
+                        <label for="l-name">Last Name:</label>
+                        <input type="text" name="l-name" id="l-name">
+                    </div>
+                    <div class="create">
+                        <label for="email">Email Address:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="create">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="create">
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+
+                    <h3>Other Information</h3>
+                    <h4>Gender</h4>
+                    <div>
+                        <input type="radio" name="male" id="male">
+                        <label for="text">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="f-male" id="f-male">
+                        <label for="text">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="transgender" id="transgender">
+                        <label for="text">Transgender</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="other" id="other">
+                        <label for="text">Other</label>
+                    </div>
+
+                    <h3>Select Plan</h3>
+                    <div>
+                        <select name="option" id="option">
+                            <option value="">Select a Plan</option>
+                            <option value="1">Basic Plan</option>
+                            <option value="2">Standard Plan</option>
+                            <option value="3">Gold Plan</option>
+                            <option value="4">Not Ready</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <button type="submit">
+                            <i class="fas fa-check"></i>
+                            Submit
+                        </button>
+                        <button type="reset">
+                            <i class="fas fa-times"></i>
+                            Reset
+                        </button>
+                    </div>
+                </form>
             </div>
-            <div class="bottom-line"></div>
+        </section>
 
-            <!-- Form Area -->
-            <form action="#" class="access-form">
-                <div class="email-input">
-                    <label for="email" class="email-address">Email Address:</label>
-                    <br>
-                    <input type="email" name="email" placeholder="fitness@broncofitness.co.uk" id="email">
-                </div>
-
-                <div class="password-input">
-                    <label for="pwd" class="pwd">Password:</label>
-                    <br>
-                    <input type="password" name="password" placeholder="Enter Password" id="password">
-                </div>
-
-                <div class="submit">
-                    <input type="submit" value="login">
-                </div>
-            </form>
-
-            <a href="#" class="forgot">Forgot password?</a>
-
-            <div class="alternative">
-                <span class="left"></span>
-                <h3>or</h3>
-                <span class="right"></span>
-            </div>
-
-            <a href="#" class="no-account">Don't have accont? Sign Up</a>
-        </div>
 
         <!-- Right Side Icons Area -->
         <aside class="icons">
@@ -170,12 +212,12 @@
                     <br> 25 Elm Gardens, East Finchley, London,
                     <br> N2
                     9PJ</p>
-                    <p class="email">
-                        <a href="mailto:fitness@broncofitness.co.uk">
-                            <i class="fas fa-envelope"></i> Email:
-                            <br>fitness@broncofitness.co.uk
-                        </a>
-                    </p>
+                <p class="email">
+                    <a href="mailto:fitness@broncofitness.co.uk">
+                        <i class="fas fa-envelope"></i> Email:
+                        <br>fitness@broncofitness.co.uk
+                    </a>
+                </p>
                 <p class="phone"><i class="fas fa-phone"></i> Phone:
                     <br>020 8025 5858</p>
             </div>

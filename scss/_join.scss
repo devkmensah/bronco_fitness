@@ -1,0 +1,13 @@
+#join-area{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
+    color: $dark-grey;
+    .create{
+        display: flex;
+        flex-direction: column;
+    }
+}
