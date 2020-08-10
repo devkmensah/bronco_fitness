@@ -81,7 +81,7 @@
           background: #0a575f; }
 
 #trainers-area {
-  background: url(../images/t4.jpg) no-repeat center center/cover;
+  background: url(../images/t5.jpg) no-repeat center center/cover;
   display: block;
   width: 100%;
   height: 100%;
@@ -92,7 +92,7 @@
   #trainers-area:after {
     content: '';
     position: absolute;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
     height: 100%;
@@ -104,22 +104,35 @@
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 100px;
-    max-width: 900px;
     margin: auto; }
+    #trainers-area .contain h3 {
+      font-size: 40px;
+      margin: -20px 0 40px 0; }
     #trainers-area .contain .trainer-box {
       display: flex;
       justify-content: center;
-      align-items: center;
-      vertical-align: middle;
-      padding: 20px;
-      margin-top: 25px;
-      border: 1px solid #15AEBF; }
+      align-items: flex-start;
+      margin-top: 45px;
+      max-width: 800px;
+      transition: transform .35s; }
+      #trainers-area .contain .trainer-box:hover {
+        transform: scale(1.05, 1.05); }
+      #trainers-area .contain .trainer-box p {
+        border: 1px solid #15AEBF;
+        padding: 40px;
+        background: #222;
+        text-align: center; }
+        #trainers-area .contain .trainer-box p:nth-child(odd) {
+          margin-right: 20px; }
+        #trainers-area .contain .trainer-box p:nth-child(even) {
+          margin-left: 20px; }
       #trainers-area .contain .trainer-box img {
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        display: inline-block;
-        margin-right: 20px; }
+        display: inline-block; }
+      #trainers-area .contain .trainer-box h5 {
+        text-align: center; }
 
 .footer-logo .footer-brand .footer-circle {
   letter-spacing: 1.5px;
@@ -208,7 +221,27 @@ ul {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    padding: 5px 0; }
+    padding: 5px 50px;
+    vertical-align: middle; }
+    #header .header ul {
+      display: flex;
+      vertical-align: middle;
+      align-items: center;
+      justify-content: center; }
+      #header .header ul li {
+        margin: 0 12px;
+        text-transform: uppercase;
+        cursor: pointer; }
+        #header .header ul li .vertical-line {
+          height: 12px;
+          width: 1px;
+          background: #15AEBF;
+          display: inline-block;
+          margin-right: 5px; }
+        #header .header ul li a {
+          transition: all 1s cubic-bezier(1, 1, 0.8, 1); }
+          #header .header ul li a:hover {
+            color: #15AEBF; }
     #header .header .logo .brand {
       font-size: 50px;
       text-align: center; }
@@ -220,16 +253,6 @@ ul {
         #header .header .logo .brand .circle i {
           color: #15AEBF;
           margin: 0 1px; }
-    #header .header .log-in .link {
-      font-size: 18px;
-      font-weight: 600;
-      text-transform: uppercase;
-      color: #fff;
-      transition: all 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
-      #header .header .log-in .link i {
-        padding-right: 5px; }
-      #header .header .log-in .link:hover {
-        color: #15AEBF; }
 
 #bg-area {
   background: url(../images/bg34.png) no-repeat center center/cover;
