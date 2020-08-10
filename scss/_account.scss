@@ -8,9 +8,11 @@
     position: relative;
 
     .input-container {
-        max-width: 550px;
+        max-width: 600px;
         margin: 60px auto;
         display: block;
+        padding: 0 50px;
+
 
         .facebook {
             text-align: center;
@@ -45,6 +47,7 @@
             font-size: 16px;
             display: block;
             font-family: 'Yanone Kaffeesatz', sans-serif;
+            padding-bottom: 25px;
 
             .email-input {
                 font-weight: 300;
@@ -118,6 +121,50 @@
                         background: #0a575f;
                     }
                 }
+            }
+        }
+
+        .forgot{
+            font-weight: 300;
+            color: $input-green;
+            font-size: 16px;
+            // display: block;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+            text-decoration: underline;
+        }
+
+        .alternative{
+            color: $light-grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 50px 0;
+            h3{
+                margin: 0 15px;
+            }
+            span{
+                height: 1px;
+                width: 100%;
+                background: $light-grey;
+            }
+        }
+
+        .no-account{
+            text-align: center;
+            display: block;
+            width: 100%;
+            padding: 15px 0;
+            color: $white;
+            background: rgba($color: $green, $alpha: 0.8) ;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 1s ease-out;
+
+            &:hover {
+                transform: scale(1.01, 1.01);
+                background: #0a575f;
             }
         }
     }

@@ -4,9 +4,10 @@
   min-height: calc(100vh - 480px);
   position: relative; }
   #account .input-container {
-    max-width: 550px;
+    max-width: 600px;
     margin: 60px auto;
-    display: block; }
+    display: block;
+    padding: 0 50px; }
     #account .input-container .facebook {
       text-align: center;
       background: #3C5997;
@@ -30,7 +31,8 @@
       color: #005257;
       font-size: 16px;
       display: block;
-      font-family: 'Yanone Kaffeesatz', sans-serif; }
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      padding-bottom: 25px; }
       #account .input-container .access-form .email-input {
         font-weight: 300;
         margin-bottom: 30px; }
@@ -80,6 +82,39 @@
         #account .input-container .access-form .submit input:hover {
           transform: scale(1.01, 1.01);
           background: #0a575f; }
+    #account .input-container .forgot {
+      font-weight: 300;
+      color: #005257;
+      font-size: 16px;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      text-decoration: underline; }
+    #account .input-container .alternative {
+      color: #CBCED2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 50px 0; }
+      #account .input-container .alternative h3 {
+        margin: 0 15px; }
+      #account .input-container .alternative span {
+        height: 1px;
+        width: 100%;
+        background: #CBCED2; }
+    #account .input-container .no-account {
+      text-align: center;
+      display: block;
+      width: 100%;
+      padding: 15px 0;
+      color: #fff;
+      background: rgba(21, 174, 191, 0.8);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 1s ease-out; }
+      #account .input-container .no-account:hover {
+        transform: scale(1.01, 1.01);
+        background: #0a575f; }
 
 #trainers-area {
   background: url(../images/t5.jpg) no-repeat center center/cover;
