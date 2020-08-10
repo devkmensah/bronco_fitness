@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 #account {
+  padding-top: 125px;
   min-height: calc(100vh - 480px);
   position: relative; }
   #account .input-container {
@@ -102,12 +103,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     margin: auto; }
     #trainers-area .contain h3 {
       font-size: 40px;
-      margin: -20px 0 40px 0; }
+      margin: 0 0 70px; }
     #trainers-area .contain .trainer-box {
       display: flex;
       justify-content: center;
@@ -216,6 +217,7 @@ ul {
 
 #header {
   background-color: #222;
+  opacity: 0.9;
   position: fixed;
   z-index: 2;
   top: 0;
