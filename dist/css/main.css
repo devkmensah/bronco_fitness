@@ -215,7 +215,12 @@ ul {
   margin: 0 auto; }
 
 #header {
-  background-color: #222; }
+  background-color: #222;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0; }
   #header .header {
     display: flex;
     align-items: center;
@@ -239,7 +244,7 @@ ul {
           display: inline-block;
           margin-right: 5px; }
         #header .header ul li a {
-          transition: all 1s cubic-bezier(1, 1, 0.8, 1); }
+          transition: color 1s cubic-bezier(1, 1, 0.8, 1); }
           #header .header ul li a:hover {
             color: #15AEBF; }
     #header .header .logo .brand {
