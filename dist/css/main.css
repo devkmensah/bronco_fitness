@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 #account {
-  padding-top: 125px;
-  min-height: calc(100vh - 480px);
+  padding: 125px 0 50px;
   position: relative; }
   #account .input-container {
     max-width: 600px;
@@ -181,7 +180,7 @@
 #footer {
   padding: 40px;
   background-color: #222;
-  height: 480px; }
+  height: auto; }
   #footer .footer-items {
     display: grid;
     grid-template-columns: auto 350px; }

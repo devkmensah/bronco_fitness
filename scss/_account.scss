@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 
 #account {
-    padding-top: 125px;
-    min-height: calc(100vh - 480px);
+    padding: 125px 0 50px;
+    // min-height: calc(100vh - 480px);
     position: relative;
 
     .input-container {
