@@ -170,15 +170,59 @@
         text-align: center; }
 
 #join-area {
-  padding-top: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #222; }
-  #join-area .create {
+  background: #fff; }
+  #join-area #sign-up {
+    padding: 200px 0 150px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #222; }
+    #join-area #sign-up .sign-up-contain {
+      background: #15AEBF;
+      color: #fff;
+      max-width: 600px;
+      width: 100%;
+      padding: 0 90px;
+      transition: transform .35s; }
+      #join-area #sign-up .sign-up-contain:hover {
+        transform: scale(1.05, 1.05);
+        opacity: 0.9;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.34);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.34);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.34); }
+      #join-area #sign-up .sign-up-contain h1 {
+        text-transform: uppercase;
+        text-align: center;
+        padding: 50px 0 20px; }
+      #join-area #sign-up .sign-up-contain .under-line {
+        width: 90px;
+        height: 2px;
+        margin: -18px auto 0;
+        display: block;
+        background: #fff; }
+      #join-area #sign-up .sign-up-contain h3 {
+        margin: 20px 0;
+        text-transform: uppercase; }
+      #join-area #sign-up .sign-up-contain .sign-up-area .create {
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        margin-bottom: 25px; }
+        #join-area #sign-up .sign-up-contain .sign-up-area .create input {
+          padding: 15px 10px;
+          border-radius: 50px;
+          border: 1px solid #15AEBF; }
+          #join-area #sign-up .sign-up-contain .sign-up-area .create input:focus {
+            outline: none; }
+      #join-area #sign-up .sign-up-contain .sign-up-area .gender {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        vertical-align: middle; }
+        #join-area #sign-up .sign-up-contain .sign-up-area .gender .type {
+          margin-right: 20px; }
 
 .footer-logo .footer-brand .footer-circle {
   letter-spacing: 1.5px;
