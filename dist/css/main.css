@@ -202,9 +202,10 @@
         margin: -18px auto 0;
         display: block;
         background: #fff; }
-      #join-area #sign-up .sign-up-contain h3 {
+      #join-area #sign-up .sign-up-contain .start {
         margin: 20px 0;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        color: #222; }
       #join-area #sign-up .sign-up-contain .sign-up-area .create {
         display: flex;
         flex-direction: column;
@@ -223,6 +224,46 @@
         vertical-align: middle; }
         #join-area #sign-up .sign-up-contain .sign-up-area .gender .type {
           margin-right: 20px; }
+      #join-area #sign-up .sign-up-contain .sign-up-area .select {
+        margin: 40px 0 10px;
+        text-transform: uppercase;
+        color: #222; }
+      #join-area #sign-up .sign-up-contain .sign-up-area .choose .option {
+        width: 100%;
+        padding: 15px 10px;
+        border: 1px solid #15AEBF; }
+        #join-area #sign-up .sign-up-contain .sign-up-area .choose .option:focus {
+          outline: none; }
+      #join-area #sign-up .sign-up-contain .sign-up-area .terms {
+        margin-top: 40px; }
+        #join-area #sign-up .sign-up-contain .sign-up-area .terms h4 {
+          color: #222;
+          margin-bottom: 6px; }
+      #join-area #sign-up .sign-up-contain .sign-up-area .submit {
+        margin: 50px 0 60px;
+        text-align: center; }
+        #join-area #sign-up .sign-up-contain .sign-up-area .submit button {
+          padding: 10px 10px;
+          text-transform: uppercase;
+          border: 1px solid transparent;
+          background: #222;
+          color: #fff;
+          cursor: pointer;
+          -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.34);
+          -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.34);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.34); }
+          #join-area #sign-up .sign-up-contain .sign-up-area .submit button:last-child {
+            padding: 10px 18px;
+            color: #fff;
+            background: #15AEBF; }
+            #join-area #sign-up .sign-up-contain .sign-up-area .submit button:last-child:hover {
+              background: rgba(0, 0, 0, 0.1); }
+          #join-area #sign-up .sign-up-contain .sign-up-area .submit button i {
+            margin-right: 10px; }
+          #join-area #sign-up .sign-up-contain .sign-up-area .submit button:focus {
+            outline: none; }
+          #join-area #sign-up .sign-up-contain .sign-up-area .submit button:hover {
+            background: rgba(0, 0, 0, 0.9); }
 
 .footer-logo .footer-brand .footer-circle {
   letter-spacing: 1.5px;

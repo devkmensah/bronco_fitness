@@ -79,7 +79,7 @@
                 <!-- Top Area -->
                 <h1>Sign Up</h1>
                 <span class="under-line"></span>
-                <h3>Create Account...</h3>
+                <h3 class="start">Create Account...</h3>
 
                 <!-- Sign Up Form -->
                 <form action="#" class="sign-up-area">
@@ -129,32 +129,35 @@
                         </div>
                     </div>
 
-                    <h3>Select Plan...</h3>
-                    <div>
-                        <select name="option" id="option">
-                            <option value="">Select a Plan</option>
-                            <option value="1">Basic Plan</option>
-                            <option value="2">Standard Plan</option>
-                            <option value="3">Gold Plan</option>
-                            <option value="4">Not Ready</option>
+                    <h3 class="select">Select Plan...</h3>
+                    <div class="choose">
+                        <select name="option" id="option" class="option">
+                            <optgroup label="Plans">
+                                <option value="1">Basic Plan</option>
+                                <option value="2">Standard Plan</option>
+                                <option value="3">Gold Plan</option>
+                            </optgroup>
+                            <optgroup label="Not Ready Yet">
+                                <option value="1">No Plan</option>
+                            </optgroup>
                         </select>
                     </div>
 
-                    <div>
+                    <div class="terms">
                         <h4>Terms and Conditions</h4>
                         <input type="checkbox" name="checkbox" id="checkbox">
                         I accept the terms and conditions for signing up to this service, and hereby confirm I have read
                         the privacy policy.
                     </div>
 
-                    <div>
+                    <div class="submit">
+                        <button type="reset">
+                            <i class="fas fa-redo"></i>
+                            Refresh
+                        </button>
                         <button type="submit">
                             <i class="fas fa-check"></i>
                             Submit
-                        </button>
-                        <button type="reset">
-                            <i class="fas fa-times"></i>
-                            Reset
                         </button>
                     </div>
                 </form>
