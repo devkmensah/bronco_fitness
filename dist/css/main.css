@@ -171,6 +171,12 @@
 
 #join-area {
   background: #fff; }
+  #join-area .top {
+    color: #222; }
+    #join-area .top .holder {
+      width: 100%;
+      height: 70vh;
+      background: url(../images/w1.jpg) no-repeat center center/cover; }
   #join-area #sign-up {
     padding: 200px 0 150px;
     display: flex;
