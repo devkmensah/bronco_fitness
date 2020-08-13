@@ -744,6 +744,10 @@ ul {
     #plans .plans-boxes .second {
       transform: translateY(-5px); }
 
+@media (max-width: 780px) {
+  #join {
+    display: block; } }
+
 @media (max-width: 670px) {
   #header {
     opacity: 1;
