@@ -25,6 +25,29 @@
     }
 }
 
+
+
+// QUERY TWO
+// FOOTER AREA MEDIA QUERIES
+@media(max-width: 900px) {
+    #footer {
+        .footer-items {
+            display: block;
+            text-align: center;
+
+            .left {
+                margin-bottom: 60px;
+            }
+
+            .right {
+                padding: 0px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
 // QUERY THREE
 // JOIN AREA MEDIA QUERY
 @media (max-width: 780px) {

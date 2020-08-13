@@ -759,6 +759,16 @@ ul {
       #plans .plans-boxes .third {
         order: 2; } }
 
+@media (max-width: 900px) {
+  #footer .footer-items {
+    display: block;
+    text-align: center; }
+    #footer .footer-items .left {
+      margin-bottom: 60px; }
+    #footer .footer-items .right {
+      padding: 0px;
+      text-align: center; } }
+
 @media (max-width: 780px) {
   #join {
     display: block; } }
