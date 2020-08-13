@@ -1,3 +1,30 @@
+// QUERY ONE
+// PLANS AREA MEDIA QUERY
+@media (max-width: 1143px) {
+    #plans {
+        padding: 100px 0;
+
+        .plans-boxes {
+            display: flex;
+            padding: 20px 0;
+            flex-wrap: wrap-reverse;
+
+            .first {
+                order: 1;
+            }
+
+            .second {
+                transform: translateY(0);
+                order: 3;
+            }
+
+            .third {
+                order: 2;
+            }
+        }
+    }
+}
+
 // QUERY THREE
 // JOIN AREA MEDIA QUERY
 @media (max-width: 780px) {

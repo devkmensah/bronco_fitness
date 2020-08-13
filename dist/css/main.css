@@ -744,6 +744,21 @@ ul {
     #plans .plans-boxes .second {
       transform: translateY(-5px); }
 
+@media (max-width: 1143px) {
+  #plans {
+    padding: 100px 0; }
+    #plans .plans-boxes {
+      display: flex;
+      padding: 20px 0;
+      flex-wrap: wrap-reverse; }
+      #plans .plans-boxes .first {
+        order: 1; }
+      #plans .plans-boxes .second {
+        transform: translateY(0);
+        order: 3; }
+      #plans .plans-boxes .third {
+        order: 2; } }
+
 @media (max-width: 780px) {
   #join {
     display: block; } }
