@@ -748,6 +748,21 @@ ul {
   #join {
     display: block; } }
 
+@media (max-width: 773px) {
+  #plans {
+    padding: 100px 0; }
+    #plans .plans-boxes {
+      display: flex;
+      padding: 20px 0;
+      flex-wrap: wrap; }
+      #plans .plans-boxes .first {
+        order: 1; }
+      #plans .plans-boxes .second {
+        transform: translateY(0);
+        order: 2; }
+      #plans .plans-boxes .third {
+        order: 3; } }
+
 @media (max-width: 670px) {
   #header {
     opacity: 1;
