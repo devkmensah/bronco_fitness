@@ -1,4 +1,4 @@
-// variables
+// Variables
 $white: #fff;
 $dark-grey: #222;
 $blue: #0484E4;
@@ -8,13 +8,13 @@ $light-grey: #CBCED2;
 $input-green: #005257;
 $youtube: #FF0000;
 
-// imported scss files
+// Imported SCSS Files
 @import 'account';
 @import 'trainers';
 @import 'join';
 @import 'footer';
 
-// core styling
+// Core Styling
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,7 +28,7 @@ body {
     margin-bottom: 0;
     line-height: 1.6;
     height: 100%;
-    
+
 }
 
 a {
@@ -37,9 +37,7 @@ a {
     color: $white;
 }
 
-// .current > a{
-//    color: $green;
-// }
+
 
 ul {
     list-style: none;
@@ -67,17 +65,15 @@ ul {
 
 
 ////////////////////////////////////////////////////////////////////////////
-// HEADER AREA
+// HEADER AREA STYLING
 #header {
     background-color: $dark-grey;
     opacity: 0.9;
     position: fixed;
     z-index: 2;
-    // overflow: hidden;
     top: 0;
     left: 0;
     right: 0;
-    // border-bottom: 1px solid $green;
 
     .header {
         display: flex;
@@ -86,7 +82,7 @@ ul {
         justify-content: space-between;
         padding: 5px 50px;
         vertical-align: middle;
-        
+
 
         ul {
             display: flex;
@@ -98,7 +94,7 @@ ul {
                 margin: 0 12px;
                 text-transform: uppercase;
                 cursor: pointer;
-                
+
 
                 .vertical-line {
                     height: 12px;
@@ -107,14 +103,14 @@ ul {
                     display: inline-block;
                     margin-right: 5px;
                 }
-                a{
+
+                a {
                     transition: color 1s cubic-bezier(1, 1, 0.8, 1);
+
                     &:hover {
                         color: $green;
                     }
                 }
-
-               
             }
         }
 
@@ -130,7 +126,6 @@ ul {
                     text-align: center;
 
                     i {
-                        // color: $blue;
                         color: $green;
                         margin: 0 1px;
                     }
@@ -305,22 +300,17 @@ ul {
 
 }
 
-// Join Area
+// JOIN AREA STYLING
 #join {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-
-
-
     .join-item {
-
-        // Left Side
+         // Left Side
         &:first-child {
             background: $white;
             color: $dark-grey;
             padding: 50px;
-            // order: 2;
 
             a {
                 color: $dark-grey;
@@ -481,6 +471,7 @@ ul {
     }
 }
 
+// PLANS AREA STYLING
 #plans {
     // background: $dark-grey;
     background: rgba(0, 0, 0, 0.09);
