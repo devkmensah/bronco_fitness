@@ -128,3 +128,38 @@
         }
     }
 }
+
+@media (max-width: 400px){
+
+    // Main Area
+#bg-area {
+
+    .bg-text {
+
+        .move {
+            font-size: 15px;
+        }
+
+        .intro {
+            font-size: 15px;
+        }
+
+        .face {
+            font-size: 45px;
+        }
+
+        .btn-big {
+            padding: 15px 65px;
+            font-size: 15px;
+        }
+    }
+}
+
+    // 24 Hours Media Query
+#hours {
+    h3 {
+        font-size: 25px;
+    }
+
+}
+}
