@@ -826,5 +826,47 @@ ul {
   #bg-area .bg-text .btn-big {
     padding: 15px 65px;
     font-size: 15px; }
+  .icons .icon {
+    font-size: 15px; }
   #hours h3 {
-    font-size: 25px; } }
+    font-size: 25px; }
+  #join .join-item:first-child {
+    text-align: center; }
+    #join .join-item:first-child h3 {
+      font-size: 22px; }
+    #join .join-item:first-child p {
+      font-size: 16px; }
+    #join .join-item:first-child .btn-long {
+      padding: 10px 0;
+      font-size: 11px; }
+      #join .join-item:first-child .btn-long:hover {
+        padding: 9px 0; }
+    #join .join-item:first-child .row-images {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      justify-content: center;
+      align-items: center; }
+      #join .join-item:first-child .row-images .column-images {
+        flex: 100%;
+        margin: 0;
+        max-width: 100%; }
+        #join .join-item:first-child .row-images .column-images .image-contain {
+          margin-top: 20px; }
+  #join .join-item:last-child .list-items li {
+    font-size: 13px;
+    padding: 13px 0; }
+    #join .join-item:last-child .list-items li:nth-child(2) {
+      padding: 0 0 13px 0; }
+    #join .join-item:last-child .list-items li:last-child .btn-long {
+      padding: 10px 0;
+      font-size: 11px; }
+  #join .join-item:last-child .list-items h3 {
+    font-size: 20px; }
+  #join .join-item:last-child .list-items .per-month span:first-child {
+    font-size: 20px;
+    padding-bottom: 5px;
+    top: 10px;
+    left: 48px; }
+  #join .join-item:last-child .list-items .per-month span:nth-child(2) {
+    font-size: 50px; } }

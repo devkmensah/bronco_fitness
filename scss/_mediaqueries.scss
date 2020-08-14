@@ -129,37 +129,134 @@
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
 
     // Main Area
-#bg-area {
+    #bg-area {
 
-    .bg-text {
+        .bg-text {
 
-        .move {
-            font-size: 15px;
+            .move {
+                font-size: 15px;
+            }
+
+            .intro {
+                font-size: 15px;
+            }
+
+            .face {
+                font-size: 45px;
+            }
+
+            .btn-big {
+                padding: 15px 65px;
+                font-size: 15px;
+            }
         }
+    }
 
-        .intro {
-            font-size: 15px;
-        }
 
-        .face {
-            font-size: 45px;
-        }
-
-        .btn-big {
-            padding: 15px 65px;
+    // Right side Icons Area
+    .icons {
+        .icon {
             font-size: 15px;
         }
     }
-}
 
     // 24 Hours Media Query
-#hours {
-    h3 {
-        font-size: 25px;
+    #hours {
+        h3 {
+            font-size: 25px;
+        }
+
     }
 
+    // JOIN AREA STYLING
+#join {
+    .join-item {
+         // Left Side
+        &:first-child {
+            text-align: center;
+
+            h3 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .btn-long {
+                padding: 10px 0;
+                font-size: 11px;
+
+                &:hover {
+                    padding: 9px 0;
+                }
+            }
+
+            // Lightbox Images
+            .row-images {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 30px;
+                justify-content: center;
+                align-items: center;
+
+                .column-images {
+                    flex: 100%;
+                    margin: 0;
+                    max-width: 100%;
+
+                    .image-contain {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        // Right Side
+        &:last-child {
+            .list-items {
+
+                li {
+                    font-size: 13px;
+                    padding: 13px 0;
+
+                    &:nth-child(2) {
+                        padding: 0 0 13px 0;
+                    }
+
+                    &:last-child {
+
+                        .btn-long {
+                            padding: 10px 0;
+                            font-size: 11px;
+                        }
+                    }
+                }
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                .per-month {
+
+                    span {
+                        &:first-child {
+                            font-size: 20px;
+                            padding-bottom: 5px;
+                            top: 10px;
+                            left: 48px;
+                        }
+
+                        &:nth-child(2) {
+                            font-size: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 }
