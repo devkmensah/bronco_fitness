@@ -319,9 +319,11 @@
         font-size: 32px;
         margin-bottom: 25px;
         color: #15AEBF; }
-      #footer .footer-items .right .address, #footer .footer-items .right .email {
+      #footer .footer-items .right .address,
+      #footer .footer-items .right .email {
         margin-bottom: 30px; }
-        #footer .footer-items .right .address i, #footer .footer-items .right .email i {
+        #footer .footer-items .right .address i,
+        #footer .footer-items .right .email i {
           margin-right: 15px;
           color: #15AEBF; }
       #footer .footer-items .right .phone i {
@@ -770,7 +772,10 @@ ul {
       margin-bottom: 60px; }
     #footer .footer-items .right {
       padding: 0px;
-      text-align: center; } }
+      text-align: center; }
+      #footer .footer-items .right .address i,
+      #footer .footer-items .right .email i, #footer .footer-items .right .phone i {
+        margin-right: 1px; } }
 
 @media (max-width: 780px) {
   #join {

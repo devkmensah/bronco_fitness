@@ -42,6 +42,14 @@
             .right {
                 padding: 0px;
                 text-align: center;
+
+                .address,
+                .email, .phone {
+    
+                    i {
+                        margin-right: 1px;
+                    }
+                }
             }
         }
     }
@@ -172,91 +180,92 @@
     }
 
     // JOIN AREA STYLING
-#join {
-    .join-item {
-         // Left Side
-        &:first-child {
-            text-align: center;
+    #join {
+        .join-item {
 
-            h3 {
-                font-size: 22px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            .btn-long {
-                padding: 10px 0;
-                font-size: 11px;
-
-                &:hover {
-                    padding: 9px 0;
-                }
-            }
-
-            // Lightbox Images
-            .row-images {
-                display: flex;
-                flex-wrap: wrap;
-                margin-top: 30px;
-                justify-content: center;
-                align-items: center;
-
-                .column-images {
-                    flex: 100%;
-                    margin: 0;
-                    max-width: 100%;
-
-                    .image-contain {
-                        margin-top: 20px;
-                    }
-                }
-            }
-        }
-
-        // Right Side
-        &:last-child {
-            .list-items {
-
-                li {
-                    font-size: 13px;
-                    padding: 13px 0;
-
-                    &:nth-child(2) {
-                        padding: 0 0 13px 0;
-                    }
-
-                    &:last-child {
-
-                        .btn-long {
-                            padding: 10px 0;
-                            font-size: 11px;
-                        }
-                    }
-                }
+            // Left Side
+            &:first-child {
+                text-align: center;
 
                 h3 {
-                    font-size: 20px;
+                    font-size: 22px;
                 }
 
-                .per-month {
+                p {
+                    font-size: 16px;
+                }
 
-                    span {
-                        &:first-child {
-                            font-size: 20px;
-                            padding-bottom: 5px;
-                            top: 10px;
-                            left: 48px;
+                .btn-long {
+                    padding: 10px 0;
+                    font-size: 11px;
+
+                    &:hover {
+                        padding: 9px 0;
+                    }
+                }
+
+                // Lightbox Images
+                .row-images {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 30px;
+                    justify-content: center;
+                    align-items: center;
+
+                    .column-images {
+                        flex: 100%;
+                        margin: 0;
+                        max-width: 100%;
+
+                        .image-contain {
+                            margin-top: 20px;
                         }
+                    }
+                }
+            }
+
+            // Right Side
+            &:last-child {
+                .list-items {
+
+                    li {
+                        font-size: 13px;
+                        padding: 13px 0;
 
                         &:nth-child(2) {
-                            font-size: 50px;
+                            padding: 0 0 13px 0;
+                        }
+
+                        &:last-child {
+
+                            .btn-long {
+                                padding: 10px 0;
+                                font-size: 11px;
+                            }
+                        }
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                    }
+
+                    .per-month {
+
+                        span {
+                            &:first-child {
+                                font-size: 20px;
+                                padding-bottom: 5px;
+                                top: 10px;
+                                left: 48px;
+                            }
+
+                            &:nth-child(2) {
+                                font-size: 50px;
+                            }
                         }
                     }
                 }
             }
         }
     }
-}
 }

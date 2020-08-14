@@ -3,7 +3,7 @@
     background-color: $dark-grey;
     // height: 480px;
     height: auto;
-   
+
 
     .footer-items {
         display: grid;
@@ -12,15 +12,16 @@
         .left {
             .footer-logo {
                 margin-bottom: 25px;
+
                 .footer-brand {
                     .footer-circle {
                         letter-spacing: 1.5px;
-            
+
                         i {
                             color: $green;
                             margin: 0 1px;
                         }
-            
+
                         font-size: 16px;
                         text-transform: uppercase;
                     }
@@ -53,39 +54,47 @@
         }
 
         .right {
-           padding: 0 0 0 40px;
-           h1{
-            font-size: 32px;
-               margin-bottom: 25px;
-               color: $green;
-           }
-           .address, .email{
-               margin-bottom: 30px;
-                   i{
-                       margin-right: 15px;;
-                       color: $green;
-                   }
-           }
-          .phone{
-            i{
-                margin-right: 15px;;
+            padding: 0 0 0 40px;
+
+            h1 {
+                font-size: 32px;
+                margin-bottom: 25px;
                 color: $green;
             }
-          }
+
+            .address,
+            .email {
+                margin-bottom: 30px;
+
+                i {
+                    margin-right: 15px;
+                    color: $green;
+                }
+            }
+
+            .phone {
+                i {
+                    margin-right: 15px;
+                    color: $green;
+                }
+            }
         }
     }
 
     // Copyright Area
     .copyright {
         text-align: center;
+
         // padding-bottom: 20px;
         .footer-logo {
             display: inline-block;
             font-size: 10px;
+
             // font-weight: 300;
-            .footer-brand{
+            .footer-brand {
                 padding-top: 50px;
-                .footer-circle{
+
+                .footer-circle {
                     font-size: 8px;
                 }
             }
