@@ -194,16 +194,15 @@ ul {
 
         .intro {
             font-size: 20px;
-            text-transform: capitalize;
             margin-top: 90px;
-           padding: 0 20px;
+           padding: 0 5px;
         }
 
         .face {
-            font-size: 60px;
+            font-size: 50px;
             text-transform: uppercase;
             margin: 40px 0;
-            padding: 0 20px;
+            padding: 0 2px;
         }
 
         .btn-big {
@@ -446,6 +445,7 @@ ul {
 
                 .per-month {
                     position: relative;
+                    display: block;
 
                     span {
                         &:first-child {

@@ -44,8 +44,9 @@
                 text-align: center;
 
                 .address,
-                .email, .phone {
-    
+                .email,
+                .phone {
+
                     i {
                         margin-right: 1px;
                     }
@@ -135,6 +136,23 @@
             }
         }
     }
+
+    // Main Area
+    #bg-area {
+        .bg-text {
+            .face {
+                font-size: 35px;
+            }
+        }
+    }
+
+    #join {
+        .join-item{
+            &:first-child{
+                text-align: center;
+            }
+        }
+    }
 }
 
 @media (max-width: 400px) {
@@ -149,15 +167,6 @@
             }
 
             .intro {
-                font-size: 15px;
-            }
-
-            .face {
-                font-size: 45px;
-            }
-
-            .btn-big {
-                padding: 15px 65px;
                 font-size: 15px;
             }
         }
@@ -197,7 +206,6 @@
 
                 .btn-long {
                     padding: 10px 0;
-                    font-size: 11px;
 
                     &:hover {
                         padding: 9px 0;
@@ -229,38 +237,13 @@
                 .list-items {
 
                     li {
-                        font-size: 13px;
-                        padding: 13px 0;
-
-                        &:nth-child(2) {
-                            padding: 0 0 13px 0;
-                        }
-
-                        &:last-child {
-
-                            .btn-long {
-                                padding: 10px 0;
-                                font-size: 11px;
-                            }
-                        }
-                    }
-
-                    h3 {
-                        font-size: 20px;
+                        font-size: 16px;
                     }
 
                     .per-month {
-
                         span {
                             &:first-child {
-                                font-size: 20px;
-                                padding-bottom: 5px;
-                                top: 10px;
-                                left: 48px;
-                            }
-
-                            &:nth-child(2) {
-                                font-size: 50px;
+                                left: 28px;
                             }
                         }
                     }
@@ -268,4 +251,39 @@
             }
         }
     }
+
+
+    // PLANS AREA STYLING
+    #plans {
+    .plans-boxes {
+        .plan {
+            .btn-small {
+                padding: 10px 16px;
+                font-size: 11px;
+            }
+        }
+    }
+}
+}
+
+
+@media(max-width: 362px) {
+
+    // Right Side
+    #join {
+        .join-item {
+            &:last-child {
+                .list-items {
+                    .per-month {
+                        span {
+                            &:first-child {
+                                left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
