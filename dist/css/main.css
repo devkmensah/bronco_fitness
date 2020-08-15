@@ -829,7 +829,9 @@ ul {
   #trainers-area .contain {
     padding-top: 80px; }
     #trainers-area .contain h3 {
-      font-size: 30px; } }
+      font-size: 30px; }
+  #account {
+    padding: 50px 0 50px; } }
 
 @media (max-width: 400px) {
   #bg-area .bg-text .move {
@@ -868,7 +870,13 @@ ul {
     left: 28px; }
   #plans .plans-boxes .plan .btn-small {
     padding: 10px 16px;
-    font-size: 11px; } }
+    font-size: 11px; }
+  #account .input-container .facebook a {
+    font-size: 12px; }
+    #account .input-container .facebook a i {
+      font-size: 18px; }
+  #account .input-container .access-form .submit input {
+    font-size: 16px; } }
 
 @media (max-width: 362px) {
   #join .join-item:last-child .list-items .per-month span:first-child {

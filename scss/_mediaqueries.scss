@@ -147,8 +147,8 @@
     }
 
     #join {
-        .join-item{
-            &:first-child{
+        .join-item {
+            &:first-child {
                 text-align: center;
             }
         }
@@ -157,14 +157,21 @@
 
     // TRAINERS MEDIA QUERY
     #trainers-area {
-    
+
         .contain {
             padding-top: 80px;
-           h3{
-               font-size: 30px;
-           }
+
+            h3 {
+                font-size: 30px;
+            }
         }
     }
+
+    // ACCOUNT PAGE MEDIA QUERY
+    #account {
+        padding: 50px 0 50px;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -267,11 +274,36 @@
 
     // PLANS AREA STYLING
     #plans {
-    .plans-boxes {
-        .plan {
-            .btn-small {
-                padding: 10px 16px;
-                font-size: 11px;
+        .plans-boxes {
+            .plan {
+                .btn-small {
+                    padding: 10px 16px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+
+    // ACCOUNT PAGE MEDIA QUERY
+#account {
+    .input-container {
+        .facebook {
+            a {
+                font-size: 12px;
+
+                i {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        // Form Area
+        .access-form {
+            .submit {
+                input {
+                    font-size: 16px;
+                }
             }
         }
     }
