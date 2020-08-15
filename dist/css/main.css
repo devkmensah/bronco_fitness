@@ -838,8 +838,10 @@ ul {
     font-size: 15px; }
   #bg-area .bg-text .intro {
     font-size: 15px; }
-  .icons .icon {
-    font-size: 15px; }
+  .icons {
+    top: 310px; }
+    .icons .icon {
+      font-size: 15px; }
   #hours h3 {
     font-size: 25px; }
   #join .join-item:first-child {
@@ -875,6 +877,8 @@ ul {
     font-size: 12px; }
     #account .input-container .facebook a i {
       font-size: 18px; }
+  #account .input-container .access-form .email-input input, #account .input-container .access-form .password-input input {
+    font-size: 12px; }
   #account .input-container .access-form .submit input {
     font-size: 16px; } }
 
