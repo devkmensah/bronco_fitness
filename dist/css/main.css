@@ -882,10 +882,33 @@ ul {
     font-size: 12px; }
     #account .input-container .facebook a i {
       font-size: 18px; }
-  #account .input-container .access-form .email-input input, #account .input-container .access-form .password-input input {
+  #account .input-container .access-form .email-input input,
+  #account .input-container .access-form .password-input input {
     font-size: 12px; }
   #account .input-container .access-form .submit input {
-    font-size: 16px; } }
+    font-size: 16px; }
+  #trainers-area .contain {
+    padding-top: 100px;
+    padding-bottom: 200px; }
+    #trainers-area .contain h3 {
+      font-size: 35px;
+      margin: 0; }
+    #trainers-area .contain .trainer-box {
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 100px; }
+      #trainers-area .contain .trainer-box:nth-child(odd) {
+        flex-direction: column-reverse; }
+      #trainers-area .contain .trainer-box .trainer {
+        margin-bottom: 25px; }
+      #trainers-area .contain .trainer-box p {
+        padding: 35px; }
+        #trainers-area .contain .trainer-box p:nth-child(odd) {
+          margin-right: 0; }
+        #trainers-area .contain .trainer-box p:nth-child(even) {
+          margin-left: 0; }
+      #trainers-area .contain .trainer-box img {
+        display: block; } }
 
 @media (max-width: 362px) {
   #join .join-item:last-child .list-items .per-month span:first-child {
