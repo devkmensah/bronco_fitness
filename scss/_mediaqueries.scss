@@ -175,6 +175,19 @@
 
 }
 
+@media(max-width: 500px){
+    #trainers-area {
+    
+        .contain {
+            .trainer-box {
+                p {
+                     padding: 30px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 400px) {
 
     // Main Area
