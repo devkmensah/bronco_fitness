@@ -477,7 +477,7 @@ ul {
 
 .icons {
   position: fixed;
-  top: 360px;
+  top: 279px;
   right: 0;
   overflow-x: hidden;
   display: block; }
@@ -832,21 +832,63 @@ ul {
     #trainers-area .contain h3 {
       font-size: 30px; }
   #account {
-    padding: 50px 0 50px; } }
+    padding: 50px 0 50px; }
+  #sign-up-area .top .holder {
+    font-size: 26px; }
+  #sign-up-area #sign-up {
+    padding: 0px 0 150px; }
+    #sign-up-area #sign-up .contract {
+      font-size: 31px; }
+    #sign-up-area #sign-up .sign-up-contain {
+      max-width: 450px;
+      padding: 0 50px; }
+      #sign-up-area #sign-up .sign-up-contain h2 {
+        font-size: 20px; }
+      #sign-up-area #sign-up .sign-up-contain .underline {
+        width: 80px; }
+      #sign-up-area #sign-up .sign-up-contain .start {
+        font-size: 15px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .create label {
+        font-size: 13px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender-header {
+        font-size: 14px;
+        margin-bottom: 5px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender .type {
+        font-size: 14px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .select {
+        font-size: 15px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms {
+        font-size: 13px; }
+        #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms h4 {
+          font-size: 15px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit button {
+        font-size: 12px; } }
 
 @media (max-width: 500px) {
   #trainers-area .contain .trainer-box p {
-    padding: 30px; } }
+    padding: 30px; }
+  #sign-up-area .top .holder {
+    font-size: 20px; }
+  #sign-up-area #sign-up {
+    padding: 0px 0 150px; }
+    #sign-up-area #sign-up .contract {
+      font-size: 27px; }
+    #sign-up-area #sign-up .sign-up-contain {
+      max-width: 350px;
+      padding: 0 30px; }
+      #sign-up-area #sign-up .sign-up-contain .underline {
+        width: 75px; } }
 
 @media (max-width: 400px) {
   #bg-area .bg-text .move {
     font-size: 15px; }
   #bg-area .bg-text .intro {
     font-size: 15px; }
-  .icons {
-    top: 310px; }
-    .icons .icon {
-      font-size: 15px; }
+  .icons .icon {
+    font-size: 12px;
+    padding: 5px 0 5px 5px;
+    width: 180px;
+    transform: translateX(128px); }
   #hours h3 {
     font-size: 25px; }
   #join .join-item:first-child {
@@ -908,7 +950,37 @@ ul {
         #trainers-area .contain .trainer-box p:nth-child(even) {
           margin-left: 0; }
       #trainers-area .contain .trainer-box img {
-        display: block; } }
+        display: block; }
+  #sign-up-area .top .holder {
+    font-size: 16px; }
+  #sign-up-area #sign-up {
+    padding: 0px 0 150px; }
+    #sign-up-area #sign-up .contract {
+      font-size: 23px; }
+    #sign-up-area #sign-up .sign-up-contain {
+      max-width: 250px;
+      padding: 0 7px; }
+      #sign-up-area #sign-up .sign-up-contain h2 {
+        font-size: 16px; }
+      #sign-up-area #sign-up .sign-up-contain .underline {
+        width: 60px; }
+      #sign-up-area #sign-up .sign-up-contain .start {
+        font-size: 11px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .create label {
+        font-size: 10px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender-header {
+        font-size: 10px;
+        margin-bottom: 5px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender .type {
+        font-size: 10px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .select {
+        font-size: 11px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms {
+        font-size: 10px; }
+        #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms h4 {
+          font-size: 11px; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit button {
+        font-size: 10px; } }
 
 @media (max-width: 362px) {
   #join .join-item:last-child .list-items .per-month span:first-child {
