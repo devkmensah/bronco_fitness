@@ -139,6 +139,7 @@
 
     // Main Area
     #bg-area {
+        // max-height: 700px;
         .bg-text {
             .face {
                 font-size: 35px;
@@ -191,7 +192,8 @@
             }
     
             .sign-up-contain {
-                max-width: 450px;
+                // max-width: 450px;
+                max-width: 80%;
                 padding: 0 50px;
     
                 h2 {
@@ -285,7 +287,7 @@
             }
     
             .sign-up-contain {
-                max-width: 350px;
+                // max-width: 350px;
                 padding: 0 30px;
 
                 .underline {
@@ -318,9 +320,10 @@
     .icons {
         .icon {
             font-size: 12px;
-            padding: 5px 0 5px 5px;
+            padding: 4px 0;
             width: 180px;
-            transform: translateX(128px);
+            transform: translateX(135px);
+            // border-radius: 10px 0 0 10px;
         }
     }
 
@@ -505,7 +508,7 @@
             }
     
             .sign-up-contain {
-                max-width: 250px;
+                // max-width: 250px;
                 padding: 0 7px;
     
                 h2 {

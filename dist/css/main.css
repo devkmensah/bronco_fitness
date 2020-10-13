@@ -345,7 +345,8 @@
     position: fixed;
     right: 7px;
     bottom: 7px;
-    display: none; }
+    display: none;
+    z-index: 3; }
     #footer .arrow a i {
       border-radius: 50px;
       padding: 5px;
@@ -860,7 +861,7 @@ ul {
     #sign-up-area #sign-up .contract {
       font-size: 31px; }
     #sign-up-area #sign-up .sign-up-contain {
-      max-width: 450px;
+      max-width: 80%;
       padding: 0 50px; }
       #sign-up-area #sign-up .sign-up-contain h2 {
         font-size: 20px; }
@@ -896,7 +897,6 @@ ul {
     #sign-up-area #sign-up .contract {
       font-size: 27px; }
     #sign-up-area #sign-up .sign-up-contain {
-      max-width: 350px;
       padding: 0 30px; }
       #sign-up-area #sign-up .sign-up-contain .underline {
         width: 75px; } }
@@ -908,9 +908,9 @@ ul {
     font-size: 15px; }
   .icons .icon {
     font-size: 12px;
-    padding: 5px 0 5px 5px;
+    padding: 4px 0;
     width: 180px;
-    transform: translateX(128px); }
+    transform: translateX(135px); }
   #hours h3 {
     font-size: 25px; }
   #join .join-item:first-child {
@@ -980,7 +980,6 @@ ul {
     #sign-up-area #sign-up .contract {
       font-size: 23px; }
     #sign-up-area #sign-up .sign-up-contain {
-      max-width: 250px;
       padding: 0 7px; }
       #sign-up-area #sign-up .sign-up-contain h2 {
         font-size: 16px; }
