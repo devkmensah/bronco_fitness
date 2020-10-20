@@ -139,6 +139,7 @@
 
     // Main Area
     #bg-area {
+
         // max-height: 700px;
         .bg-text {
             .face {
@@ -183,23 +184,23 @@
                 font-size: 26px;
             }
         }
-    
+
         #sign-up {
             padding: 0px 0 150px;
-    
+
             .contract {
                 font-size: 31px;
             }
-    
+
             .sign-up-contain {
                 // max-width: 450px;
                 max-width: 80%;
                 padding: 0 50px;
-    
+
                 h2 {
                     font-size: 20px;
                 }
-                
+
                 .underline {
                     width: 80px;
                 }
@@ -207,37 +208,37 @@
                 .start {
                     font-size: 15px;
                 }
-    
+
                 .sign-up-area {
                     .create {
-                        label{
+                        label {
                             font-size: 13px;
                         }
                     }
-    
-                    .gender-header{
+
+                    .gender-header {
                         font-size: 14px;
                         margin-bottom: 5px;
                     }
-    
+
                     .gender {
                         .type {
                             font-size: 14px;
                         }
                     }
-    
+
                     .select {
                         font-size: 15px;
                     }
-    
+
                     .terms {
                         font-size: 13px;
-    
+
                         h4 {
                             font-size: 15px;
                         }
                     }
-    
+
                     .submit {
                         button {
                             font-size: 12px;
@@ -250,8 +251,9 @@
 
     // FOOTER AREA MEDIA QUERY
     #footer {
+
         // Arrow Icon
-        .arrow{
+        .arrow {
             display: block;
         }
     }
@@ -278,14 +280,14 @@
                 font-size: 20px;
             }
         }
-    
+
         #sign-up {
             padding: 0px 0 150px;
-    
+
             .contract {
                 font-size: 27px;
             }
-    
+
             .sign-up-contain {
                 // max-width: 350px;
                 padding: 0 30px;
@@ -315,7 +317,6 @@
         }
     }
 
-
     // Right side Icons Area
     .icons {
         .icon {
@@ -326,6 +327,7 @@
             // border-radius: 10px 0 0 10px;
         }
     }
+
 
     // 24 Hours Media Query
     #hours {
@@ -499,18 +501,18 @@
                 font-size: 16px;
             }
         }
-    
+
         #sign-up {
             padding: 0px 0 150px;
-    
+
             .contract {
                 font-size: 23px;
             }
-    
+
             .sign-up-contain {
                 // max-width: 250px;
                 padding: 0 7px;
-    
+
                 h2 {
                     font-size: 16px;
                 }
@@ -518,41 +520,41 @@
                 .underline {
                     width: 60px;
                 }
-    
+
                 .start {
                     font-size: 11px;
                 }
-    
+
                 .sign-up-area {
                     .create {
-                        label{
+                        label {
                             font-size: 10px;
                         }
                     }
-    
-                    .gender-header{
+
+                    .gender-header {
                         font-size: 10px;
                         margin-bottom: 5px;
                     }
-    
+
                     .gender {
                         .type {
                             font-size: 10px;
                         }
                     }
-    
+
                     .select {
                         font-size: 11px;
                     }
-    
+
                     .terms {
                         font-size: 10px;
-    
+
                         h4 {
                             font-size: 11px;
                         }
                     }
-    
+
                     .submit {
                         button {
                             font-size: 10px;

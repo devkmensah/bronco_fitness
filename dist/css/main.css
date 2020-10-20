@@ -206,7 +206,7 @@
       max-width: 600px;
       width: 100%;
       padding: 0 90px;
-      transition: transform .35s; }
+      transition: transform .85s ease-in-out; }
       #sign-up-area #sign-up .sign-up-contain:hover {
         transform: scale(1.05, 1.05);
         opacity: 0.9;
@@ -501,7 +501,8 @@ ul {
   top: 279px;
   right: 0;
   overflow-x: hidden;
-  display: block; }
+  display: block;
+  z-index: 1; }
   .icons .icon {
     background: rgba(0, 0, 0, 0.6);
     padding: 7px 0 7px 7px;

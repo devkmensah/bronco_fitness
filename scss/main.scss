@@ -138,7 +138,7 @@ ul {
     }
 }
 
-// Main Area
+// Home Page Starts
 #bg-area {
     background: url(../images/boxer.jpg) no-repeat center center / cover;
     // background: url(../images/boxer2.jpg) no-repeat center center / cover;
@@ -224,13 +224,14 @@ ul {
     }
 }
 
-// Right side Icons Area
+// Side Icons Area
 .icons {
     position: fixed;
     top: 279px;
     right: 0;
     overflow-x: hidden;
     display: block;
+    z-index: 1;
 
     .icon {
         background: rgba(0, 0, 0, 0.6);
@@ -286,6 +287,10 @@ ul {
         }
     }
 }
+
+// Home Page Ends
+
+
 
 // 24 Hours Area
 #hours {
