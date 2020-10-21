@@ -1,5 +1,5 @@
 // QUERY ONE
-// PLANS AREA MEDIA QUERY
+// PLANS
 @media (max-width: 1143px) {
     #plans {
         padding: 100px 0;
@@ -28,7 +28,7 @@
 
 
 // QUERY TWO
-// FOOTER AREA MEDIA QUERIES
+// FOOTER  
 @media(max-width: 900px) {
     #footer {
         .footer-items {
@@ -58,7 +58,7 @@
 
 
 // QUERY THREE
-// JOIN AREA MEDIA QUERY
+// JOIN 
 @media (max-width: 780px) {
     #join {
         display: block;
@@ -66,7 +66,7 @@
 }
 
 // QUERY FOUR
-// PLANS AREA MEDIA QUERY
+// PLANS 
 @media (max-width: 773px) {
     #plans {
         padding: 100px 0;
@@ -93,7 +93,7 @@
 }
 
 // QUERY FIVE
-// HEADER AREA MEDIA QUERY
+// HEADER 
 @media (max-width: 670px) {
     #header {
         opacity: 1;
@@ -137,10 +137,8 @@
         }
     }
 
-    // Main Area
+    // Home Page Main Area
     #bg-area {
-
-        // max-height: 700px;
         .bg-text {
             .face {
                 font-size: 35px;
@@ -148,7 +146,7 @@
         }
     }
 
-    // JOIN AREA MEDIA QUERY
+    // JOIN
     #join {
         .join-item {
             &:first-child {
@@ -158,9 +156,8 @@
     }
 
 
-    // TRAINERS MEDIA QUERY
+    // TRAINERS 
     #trainers-area {
-
         .contain {
             padding-top: 80px;
 
@@ -172,12 +169,12 @@
 
 
 
-    // ACCOUNT PAGE MEDIA QUERY
+    // ACCOUNT PAGE 
     #account {
         padding: 50px 0 50px;
     }
 
-    // SIGN UP AREA MEDIA QUERIES
+    // SIGN UP PAGE
     #sign-up-area {
         .top {
             .holder {
@@ -193,7 +190,6 @@
             }
 
             .sign-up-contain {
-                // max-width: 450px;
                 max-width: 80%;
                 padding: 0 50px;
 
@@ -249,10 +245,8 @@
         }
     }
 
-    // FOOTER AREA MEDIA QUERY
+    // FOOTER
     #footer {
-
-        // Arrow Icon
         .arrow {
             display: block;
         }
@@ -260,7 +254,7 @@
 
 }
 
-// TRAINERS MEDIA QUERY
+// TRAINERS PAGE
 @media(max-width: 500px) {
     #trainers-area {
 
@@ -273,7 +267,7 @@
         }
     }
 
-    // SIGN UP AREA MEDIA QUERIES
+    // SIGN UP PAGE
     #sign-up-area {
         .top {
             .holder {
@@ -289,7 +283,6 @@
             }
 
             .sign-up-contain {
-                // max-width: 350px;
                 padding: 0 30px;
 
                 .underline {
@@ -298,11 +291,15 @@
             }
         }
     }
+
+    // Side Icons 
+    .icons {
+       display: none;
+    }
 }
 
 @media (max-width: 400px) {
-
-    // Main Area
+    // HOME PAGE MAIN AREA
     #bg-area {
 
         .bg-text {
@@ -317,19 +314,8 @@
         }
     }
 
-    // Right side Icons Area
-    .icons {
-        .icon {
-            font-size: 12px;
-            padding: 4px 0;
-            width: 180px;
-            transform: translateX(135px);
-            // border-radius: 10px 0 0 10px;
-        }
-    }
 
-
-    // 24 Hours Media Query
+    // 24 HOURS
     #hours {
         h3 {
             font-size: 25px;
@@ -337,10 +323,9 @@
 
     }
 
-    // JOIN AREA STYLING
+    // JOIN 
     #join {
         .join-item {
-
             // Left Side
             &:first-child {
                 text-align: center;
@@ -402,7 +387,7 @@
     }
 
 
-    // PLANS AREA STYLING
+    // PLANS
     #plans {
         .plans-boxes {
             .plan {
@@ -415,7 +400,7 @@
     }
 
 
-    // ACCOUNT PAGE MEDIA QUERY
+    // ACCOUNT PAGE
     #account {
         .input-container {
             .facebook {
@@ -448,7 +433,7 @@
     }
 
 
-    // TRAINER's PAGE MEDIA QUERY
+    // TRAINERS PAGE 
     #trainers-area {
         .contain {
             padding-top: 100px;
@@ -494,7 +479,7 @@
     }
 
 
-    // SIGN UP AREA MEDIA QUERIES
+    // SIGN UP PAGE
     #sign-up-area {
         .top {
             .holder {
@@ -510,7 +495,6 @@
             }
 
             .sign-up-contain {
-                // max-width: 250px;
                 padding: 0 7px;
 
                 h2 {
@@ -569,7 +553,7 @@
 
 
 @media(max-width: 362px) {
-
+// JOIN
     // Right Side
     #join {
         .join-item {

@@ -65,7 +65,7 @@ ul {
 
 
 ////////////////////////////////////////////////////////////////////////////
-// HEADER AREA STYLING
+// HEADER AREA
 #header {
     background-color: $dark-grey;
     opacity: 0.9;
@@ -83,7 +83,7 @@ ul {
         padding: 5px 50px;
         vertical-align: middle;
 
-
+        // Left & Right Navigations
         ul {
             display: flex;
             vertical-align: middle;
@@ -114,9 +114,8 @@ ul {
             }
         }
 
-        //    Logo Area
+        // Fitness Logo
         .logo {
-
             .brand {
                 font-size: 50px;
                 text-align: center;
@@ -138,28 +137,24 @@ ul {
     }
 }
 
-// Home Page Starts
+// Home Page
 #bg-area {
     background: url(../images/boxer.jpg) no-repeat center center / cover;
-    // background: url(../images/boxer2.jpg) no-repeat center center / cover;
     display: block;
     width: 100%;
     height: 100vh;
     color: $white;
     position: relative;
 
-
     * {
         z-index: 1;
     }
 
-    // overlay for lady image
+    // Overlay for Home Page Image
     &::after {
         content: '';
         position: absolute;
         background: rgba(0, 0, 0, 0.6);
-        // background: $blue;
-        // opacity: 0.4;
         top: 0;
         left: 0;
         height: 100%;
@@ -167,10 +162,6 @@ ul {
     }
 
     .bg-text {
-        // *{
-        //     z-index: 1;
-        // }
-        // z-index: 0.5;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -182,7 +173,6 @@ ul {
         .move {
             text-transform: uppercase;
             font-size: 20px;
-            // z-index: 1;
         }
 
         .line {
@@ -190,7 +180,6 @@ ul {
             width: 100px;
             height: 3px;
             margin-top: 10px;
-            // z-index: 1;
         }
 
         .intro {
@@ -215,7 +204,6 @@ ul {
             text-transform: uppercase;
             transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9);
 
-            // z-index: 1;
             &:hover {
                 background: $white;
                 color: $green;
@@ -223,8 +211,9 @@ ul {
         }
     }
 }
+// Home Page Ends
 
-// Side Icons Area
+// Side Icons 
 .icons {
     position: fixed;
     top: 279px;
@@ -287,33 +276,30 @@ ul {
         }
     }
 }
-
-// Home Page Ends
-
+// Side Icons End
 
 
-// 24 Hours Area
+
+// 24 Hours
 #hours {
     background-color: $green;
     color: $white;
     text-align: center;
     padding: 20px 0;
 
-    // opacity: 0.6;
     h3 {
         font-size: 35px;
         padding: 0 20px;
     }
-
 }
+// 24 Hours End
 
-// JOIN AREA STYLING
+// Join
 #join {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     .join-item {
-
         // Left Side
         &:first-child {
             background: $white;
@@ -359,7 +345,6 @@ ul {
             // Lightbox Images
             .row-images {
                 display: flex;
-                // flex-wrap: wrap;
                 margin-top: 30px;
 
                 .column-images {
@@ -384,6 +369,7 @@ ul {
                 }
             }
         }
+        // Left Side Ends
 
         // Right Side
         &:last-child {
@@ -477,12 +463,13 @@ ul {
                 }
             }
         }
+         // Right Side Ends
     }
 }
+// Join Ends
 
-// PLANS AREA STYLING
+// Plans
 #plans {
-    // background: $dark-grey;
     background: rgba(0, 0, 0, 0.09);
     color: $white;
     padding: 100px 0;
@@ -525,8 +512,6 @@ ul {
                     height: 0;
                     display: inline-block;
                     vertical-align: middle;
-                    // margin: 12px 0;
-
                 }
 
                 .btn-slider {
@@ -582,9 +567,6 @@ ul {
         text-align: center;
         justify-content: center;
         padding: 20px 0;
-        // background: rgba(0, 0, 0, 0.09);
-        // background: $dark-grey;
-        // opacity: 0.93;
         flex-wrap: wrap;
 
         .monthly,
@@ -596,14 +578,10 @@ ul {
             height: 100%;
             width: 350px;
             background: $dark-grey;
-            // background: $white;
-            // background: rgba(0, 0, 0, 0.09);
             color: $white;
-            // color: $dark-grey;
             margin: 0 10px 20px;
             transition: transform .35s;
 
-            // border-radius: 50px 50px 0 0;
             &:hover {
                 transform: scale(1.05, 1.05);
                 -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
@@ -619,20 +597,12 @@ ul {
             h2 {
                 padding: 8px;
                 width: 100%;
-                // background: $dark-grey;
                 background: $white;
-                // background: $green;
-                // color: $white;
                 color: $green;
-                // color: $dark-grey;
-                // border-radius: 50px;
-
             }
 
             .standard {
                 background: $green;
-                // background: $white;
-                // color: $green;
                 color: $white;
             }
 
@@ -640,23 +610,16 @@ ul {
                 padding: 10px 31px;
                 border-radius: 5px;
                 margin: 25px 90px;
-                // display: inline-block;
                 display: block;
-
-                // background: $green;
                 border: 1px solid $green;
                 color: $white;
-                // text-transform: uppercase;
                 font-size: 16px;
                 font-weight: 700;
                 text-align: center;
                 transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9);
 
                 &:hover {
-                    // padding: 14px 0;
                     background: $green;
-                    // border: 1px solid $green;
-                    // color: $green;
                 }
             }
 
@@ -677,6 +640,7 @@ ul {
         }
     }
 }
+// Plans End
 
 // Import Media Queries
 @import 'mediaqueries';
