@@ -242,6 +242,9 @@
           border: 1px solid #15AEBF; }
           #sign-up-area #sign-up .sign-up-contain .sign-up-area .create input:focus {
             outline: none; }
+      #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender-header {
+        text-transform: uppercase;
+        color: #222; }
       #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender {
         display: flex;
         align-items: center;
@@ -249,6 +252,9 @@
         vertical-align: middle; }
         #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender .type {
           margin-right: 20px; }
+          #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender .type input {
+            display: block;
+            width: 100%; }
       #sign-up-area #sign-up .sign-up-contain .sign-up-area .select {
         margin: 40px 0 10px;
         text-transform: uppercase;
@@ -264,6 +270,13 @@
         #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms h4 {
           color: #222;
           margin-bottom: 6px; }
+        #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms .checkbox-wrapper {
+          display: block; }
+          #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms .checkbox-wrapper .terms-checkbox {
+            display: inline;
+            vertical-align: -7%; }
+          #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms .checkbox-wrapper .checkbox-text {
+            display: inline; }
       #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit {
         margin: 50px 0 60px;
         text-align: center; }
@@ -880,6 +893,8 @@ ul {
         font-size: 13px; }
         #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms h4 {
           font-size: 15px; }
+        #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms .checkbox-wrapper .terms-checkbox {
+          vertical-align: -12%; }
       #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit button {
         font-size: 12px; }
   #footer .arrow {
@@ -995,6 +1010,8 @@ ul {
         font-size: 10px; }
         #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms h4 {
           font-size: 11px; }
+        #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms .checkbox-wrapper .terms-checkbox {
+          vertical-align: -18.5%; }
       #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit button {
         font-size: 10px; } }
 

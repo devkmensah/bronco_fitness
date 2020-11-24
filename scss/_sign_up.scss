@@ -100,6 +100,11 @@
                     }
                 }
 
+                .gender-header{
+                    text-transform: uppercase;
+                    color: $dark-grey;
+                }
+
                 .gender {
                     display: flex;
                     align-items: center;
@@ -108,6 +113,10 @@
 
                     .type {
                         margin-right: 20px;
+                        input{
+                            display: block;
+                            width: 100%;
+                        }
                     }
                 }
 
@@ -136,6 +145,18 @@
                     h4 {
                         color: $dark-grey;
                         margin-bottom: 6px;
+                    }
+
+                    .checkbox-wrapper{
+                        display: block;
+
+                        .terms-checkbox{
+                            display: inline;
+                            vertical-align: -7%;
+                        }
+                        .checkbox-text{
+                            display: inline;
+                        }
                     }
                 }
 

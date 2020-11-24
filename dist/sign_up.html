@@ -118,20 +118,20 @@
                     <h4 class="gender-header">Gender</h4>
                     <div class="gender">
                         <div class="type">
-                            <input type="radio" name="gender" id="male" value="male">
                             <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="male">
                         </div>
                         <div class="type">
-                            <input type="radio" name="gender" id="female" value="female">
                             <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" value="female">
                         </div>
                         <div class="type">
-                            <input type="radio" name="gender" id="transgender" value="transgender">
                             <label for="transgender">Transgender</label>
+                            <input type="radio" name="gender" id="transgender" value="transgender">
                         </div>
                         <div class="type">
-                            <input type="radio" name="gender" id="other" value="other">
                             <label for="other">Other</label>
+                            <input type="radio" name="gender" id="other" value="other">
                         </div>
                     </div>
 
@@ -151,9 +151,15 @@
 
                     <div class="terms">
                         <h4>Terms and Conditions</h4>
-                        <input type="checkbox" name="checkbox" id="checkbox">
-                        I accept the terms and conditions for signing up to this service, and hereby confirm I have read
-                        the privacy policy.
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" name="checkbox" id="checkbox" class="terms-checkbox">
+                            <p class="checkbox-text">
+                                I accept the terms and conditions for signing up to this service, and hereby confirm I
+                                have
+                                read
+                                the privacy policy.
+                            </p>
+                        </div>
                     </div>
 
                     <div class="submit">
@@ -202,7 +208,8 @@
                     <h1 class="footer-brand">
                         About
                         <a href="index.html">
-                            B<span class="footer-circle"><i class="far fa-dot-circle"></i>Fitness</span></h1>
+                            B<span class="footer-circle"><i class="far fa-dot-circle"></i>Fitness</span>
+                    </h1>
                     </a>
                 </div>
                 <!-- About message -->
@@ -240,19 +247,20 @@
                 <p class="address"><i class="fas fa-map-marker-alt"></i> Address:
                     <br> 25 Elm Gardens, East Finchley, London,
                     <br> N2
-                    9PJ</p>
+                    9PJ
+                </p>
                 <p class="email">
                     <a href="mailto:fitness@broncofitness.co.uk">
                         <i class="fas fa-envelope"></i> Email:
                         <br>fitness@broncofitness.co.uk
                     </a>
                 </p>
-                <p class="phone"><i class="fas fa-phone"></i> Phone:
-                    <br>020 8025 5858</p>
+                <p class="phone"><a href="tel:020 8025 5858"><i class="fas fa-phone"></i> Phone:
+                        <br>020 8025 5858</a></p>
             </div>
             <!-- Right Items End -->
         </div>
-          <!-- Footer Items End -->
+        <!-- Footer Items End -->
 
         <!-- Copyright Starts-->
         <div class="copyright">
@@ -275,7 +283,7 @@
                 <i class="fas fa-sort-up"></i>
             </a>
         </div>
-         <!-- Arrow up icon Ends-->
+        <!-- Arrow up icon Ends-->
     </footer>
     <!-- Footer Area Ends -->
 </body>
