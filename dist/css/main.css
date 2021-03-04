@@ -9,7 +9,7 @@
     padding: 0 50px; }
     #account .input-container .facebook {
       text-align: center;
-      background: #3C5997;
+      background: #3c5997;
       border-radius: 4px;
       color: #fff; }
       #account .input-container .facebook a {
@@ -23,7 +23,7 @@
           font-size: 22px; }
     #account .input-container .bottom-line {
       max-width: auto;
-      background: #CBCED2;
+      background: #cbced2;
       height: 1px;
       margin: 25px 0 50px 0; }
     #account .input-container .access-form {
@@ -40,13 +40,13 @@
           padding: 12px 0 12px 12px;
           font-size: 16px;
           font-weight: 100;
-          background: #CBCED2;
+          background: #cbced2;
           border: 1px solid transparent;
           border-radius: 4px;
           margin-top: 5px; }
           #account .input-container .access-form .email-input input:focus {
             outline: none;
-            border: 1px solid #15AEBF; }
+            border: 1px solid #15aebf; }
       #account .input-container .access-form .password-input {
         font-weight: 300; }
         #account .input-container .access-form .password-input input {
@@ -54,13 +54,13 @@
           padding: 12px 0 12px 12px;
           font-size: 16px;
           font-weight: 100;
-          background: #CBCED2;
+          background: #cbced2;
           border: 1px solid transparent;
           border-radius: 4px;
           margin: 5px 0 10px 0; }
           #account .input-container .access-form .password-input input:focus {
             outline: none;
-            border: 1px solid #15AEBF; }
+            border: 1px solid #15aebf; }
       #account .input-container .access-form .submit input {
         width: 100%;
         padding: 12px 0;
@@ -70,7 +70,7 @@
         text-align: center;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-weight: 700;
-        background: #15AEBF;
+        background: #15aebf;
         border: 1px solid transparent;
         border-radius: 4px;
         letter-spacing: 2px;
@@ -88,7 +88,7 @@
       font-family: 'Yanone Kaffeesatz', sans-serif;
       text-decoration: underline; }
     #account .input-container .alternative {
-      color: #CBCED2;
+      color: #cbced2;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -100,7 +100,7 @@
       #account .input-container .alternative span {
         height: 1px;
         width: 100%;
-        background: #CBCED2; }
+        background: #cbced2; }
     #account .input-container .no-account {
       text-align: center;
       display: block;
@@ -154,7 +154,7 @@
       #trainers-area .contain .trainer-box:hover {
         transform: scale(1.05, 1.05); }
       #trainers-area .contain .trainer-box p {
-        border: 1px solid #15AEBF;
+        border: 1px solid #15aebf;
         padding: 40px;
         background: #222;
         text-align: center; }
@@ -201,7 +201,7 @@
       margin: 50px 0;
       text-align: center; }
     #sign-up-area #sign-up .sign-up-contain {
-      background: #15AEBF;
+      background: #15aebf;
       color: #fff;
       max-width: 630px;
       width: 100%;
@@ -239,7 +239,7 @@
         #sign-up-area #sign-up .sign-up-contain .sign-up-area .create input {
           padding: 15px 10px;
           border-radius: 50px;
-          border: 1px solid #15AEBF; }
+          border: 1px solid #15aebf; }
           #sign-up-area #sign-up .sign-up-contain .sign-up-area .create input:focus {
             outline: none; }
       #sign-up-area #sign-up .sign-up-contain .sign-up-area .gender-header {
@@ -262,7 +262,7 @@
       #sign-up-area #sign-up .sign-up-contain .sign-up-area .choose .option {
         width: 100%;
         padding: 15px 10px;
-        border: 1px solid #15AEBF; }
+        border: 1px solid #15aebf; }
         #sign-up-area #sign-up .sign-up-contain .sign-up-area .choose .option:focus {
           outline: none; }
       #sign-up-area #sign-up .sign-up-contain .sign-up-area .terms {
@@ -293,7 +293,7 @@
           #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit button:last-child {
             padding: 10px 18px;
             color: #fff;
-            background: #15AEBF; }
+            background: #15aebf; }
           #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit button i {
             margin-right: 10px; }
           #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit button:focus {
@@ -314,7 +314,7 @@
         font-size: 16px;
         text-transform: uppercase; }
         #footer .footer-items .left .footer-logo .footer-brand .footer-circle i {
-          color: #15AEBF;
+          color: #15aebf;
           margin: 0 1px; }
     #footer .footer-items .left .founded {
       font-size: 16px; }
@@ -328,23 +328,23 @@
         transition: color 0.5s cubic-bezier(1, 0.3, 0.5, 1);
         color: #fff; }
         #footer .footer-items .left .social .social-links:hover {
-          color: #15AEBF; }
+          color: #15aebf; }
     #footer .footer-items .right {
       padding: 0 0 0 40px; }
       #footer .footer-items .right h1 {
         font-size: 32px;
         margin-bottom: 25px;
-        color: #15AEBF; }
+        color: #15aebf; }
       #footer .footer-items .right .address,
       #footer .footer-items .right .email {
         margin-bottom: 30px; }
         #footer .footer-items .right .address i,
         #footer .footer-items .right .email i {
           margin-right: 15px;
-          color: #15AEBF; }
+          color: #15aebf; }
       #footer .footer-items .right .phone i {
         margin-right: 15px;
-        color: #15AEBF; }
+        color: #15aebf; }
   #footer .copyright {
     text-align: center; }
     #footer .copyright .footer-logo {
@@ -357,7 +357,7 @@
           letter-spacing: 1.5px;
           text-transform: uppercase; }
           #footer .copyright .footer-logo .footer-brand .footer-circle i {
-            color: #15AEBF;
+            color: #15aebf;
             margin: 0 1px; }
   #footer .arrow {
     position: fixed;
@@ -371,14 +371,14 @@
       height: 35px;
       width: 35px;
       text-align: center;
-      background: #15AEBF;
+      background: #15aebf;
       font-size: 30px;
       line-height: 1.15;
       transition: all .5s ease-out; }
       #footer .arrow a i:hover {
         background: #fff;
-        border: 1px solid #15AEBF;
-        color: #15AEBF; }
+        border: 1px solid #15aebf;
+        color: #15aebf; }
 
 * {
   box-sizing: border-box;
@@ -433,13 +433,13 @@ ul {
         #header .header ul li .vertical-line {
           height: 12px;
           width: 1px;
-          background: #15AEBF;
+          background: #15aebf;
           display: inline-block;
           margin-right: 5px; }
         #header .header ul li a {
           transition: color 1s cubic-bezier(1, 1, 0.8, 1); }
           #header .header ul li a:hover {
-            color: #15AEBF; }
+            color: #15aebf; }
     #header .header .logo .brand {
       font-size: 50px;
       text-align: center; }
@@ -449,7 +449,7 @@ ul {
         font-size: 16px;
         text-transform: uppercase; }
         #header .header .logo .brand .circle i {
-          color: #15AEBF;
+          color: #15aebf;
           margin: 0 1px; }
 
 #bg-area {
@@ -481,7 +481,7 @@ ul {
       text-transform: uppercase;
       font-size: 20px; }
     #bg-area .bg-text .line {
-      background: #15AEBF;
+      background: #15aebf;
       width: 100px;
       height: 3px;
       margin-top: 10px; }
@@ -496,7 +496,7 @@ ul {
       padding: 0 2px; }
     #bg-area .bg-text .btn-big {
       color: #fff;
-      background: #15AEBF;
+      background: #15aebf;
       padding: 20px 70px;
       border-radius: 50px;
       font-size: 20px;
@@ -504,7 +504,7 @@ ul {
       transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
       #bg-area .bg-text .btn-big:hover {
         background: #fff;
-        color: #15AEBF; }
+        color: #15aebf; }
 
 .icons {
   position: fixed;
@@ -529,16 +529,16 @@ ul {
       .icons .icon:hover:first-child {
         background: radial-gradient(circle at 30% 100%, #fed373 4%, #f15245 35%, #d92e7f 60%, #9b36b7 84%, #515ecf); }
       .icons .icon:hover:nth-child(2) {
-        background: #0484E4; }
+        background: #0484e4; }
       .icons .icon:hover:nth-child(3) {
-        background: #FF0000; }
+        background: #ff0000; }
       .icons .icon:hover i {
         border: 1px solid #fff;
         background: none; }
     .icons .icon:nth-child(2) {
       margin: 5px 0; }
     .icons .icon i {
-      background: #15AEBF;
+      background: #15aebf;
       width: 37px;
       height: 37px;
       border-radius: 50%;
@@ -548,7 +548,7 @@ ul {
       margin: 0 25px 0 5px; }
 
 #hours {
-  background-color: #15AEBF;
+  background-color: #15aebf;
   color: #fff;
   text-align: center;
   padding: 20px 0; }
@@ -577,7 +577,7 @@ ul {
     #join .join-item:first-child .btn-long {
       padding: 15px 0;
       display: block;
-      background: #15AEBF;
+      background: #15aebf;
       color: #fff;
       text-transform: uppercase;
       font-size: 16px;
@@ -587,8 +587,8 @@ ul {
       #join .join-item:first-child .btn-long:hover {
         padding: 14px 0;
         background: #fff;
-        border: 1px solid #15AEBF;
-        color: #15AEBF; }
+        border: 1px solid #15aebf;
+        color: #15aebf; }
     #join .join-item:first-child .row-images {
       display: flex;
       margin-top: 30px; }
@@ -639,14 +639,14 @@ ul {
             padding: 15px 0;
             border-radius: 50px;
             display: block;
-            background: #15AEBF;
+            background: #15aebf;
             color: #fff;
             text-transform: uppercase;
             font-size: 16px;
             transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
             #join .join-item:last-child .list-items li:last-child .btn-long:hover {
               background: #fff;
-              color: #15AEBF; }
+              color: #15aebf; }
       #join .join-item:last-child .list-items h3 {
         text-transform: uppercase;
         font-size: 25px; }
@@ -714,7 +714,7 @@ ul {
           box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.65); }
           #plans .toggle-area .btn-toggle .btn-switch .btn-slider::before {
             position: absolute;
-            content: "";
+            content: '';
             background: #fff;
             height: 27px;
             width: 27px;
@@ -727,9 +727,9 @@ ul {
           -ms-transform: translateX(25px);
           transform: translateX(25px); }
         #plans .toggle-area .btn-toggle .btn-switch #btn-checkbox:checked + .btn-slider {
-          background: #15AEBF; }
+          background: #15aebf; }
         #plans .toggle-area .btn-toggle .btn-switch #btn-checkbox:focus + .btn-slider {
-          box-shadow: 0 0 1px 0 #15AEBF; }
+          box-shadow: 0 0 1px 0 #15aebf; }
   #plans .plans-boxes {
     display: flex;
     align-items: center;
@@ -740,13 +740,15 @@ ul {
     #plans .plans-boxes .monthly,
     #plans .plans-boxes .annually {
       padding: 40px 0; }
+    #plans .plans-boxes .annually {
+      display: none; }
     #plans .plans-boxes .plan {
       height: 100%;
       width: 350px;
       background: #222;
       color: #fff;
       margin: 0 10px 20px;
-      transition: transform .35s; }
+      transition: transform 0.35s; }
       #plans .plans-boxes .plan:hover {
         transform: scale(1.05, 1.05);
         -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.29);
@@ -758,23 +760,23 @@ ul {
         padding: 8px;
         width: 100%;
         background: #fff;
-        color: #15AEBF; }
+        color: #15aebf; }
       #plans .plans-boxes .plan .standard {
-        background: #15AEBF;
+        background: #15aebf;
         color: #fff; }
       #plans .plans-boxes .plan .btn-small {
         padding: 10px 31px;
         border-radius: 5px;
         margin: 25px 90px;
         display: block;
-        border: 1px solid #15AEBF;
+        border: 1px solid #15aebf;
         color: #fff;
         font-size: 16px;
         font-weight: 700;
         text-align: center;
         transition: background 1s cubic-bezier(1, 0.8, 0.4, 0.9); }
         #plans .plans-boxes .plan .btn-small:hover {
-          background: #15AEBF; }
+          background: #15aebf; }
       #plans .plans-boxes .plan .plans-list li {
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         padding: 15px 0; }
