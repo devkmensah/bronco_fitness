@@ -3,7 +3,6 @@
 
 #account {
     padding: 125px 0 50px;
-    // min-height: calc(100vh - 480px);
     position: relative;
 
     .input-container {
@@ -123,7 +122,6 @@
             font-weight: 300;
             color: $input-green;
             font-size: 16px;
-            // display: block;
             font-family: 'Yanone Kaffeesatz', sans-serif;
             text-decoration: underline;
         }
