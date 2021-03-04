@@ -41,13 +41,13 @@
         .sign-up-contain {
             background: $green;
             color: $white;
-            max-width: 600px;
+            max-width: 630px;
             width: 100%;
             padding: 0 90px;
             transition: transform .85s ease-in-out;
 
             &:hover {
-                transform: scale(1.05, 1.05);
+                transform: scale(1.01, 1.01);
                 opacity: 0.9;
                 -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.34);
                 -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.34);
