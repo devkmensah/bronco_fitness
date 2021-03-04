@@ -1,164 +1,163 @@
+/** @format */
 
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 
 #account {
-    padding: 125px 0 50px;
-    position: relative;
+  padding: 125px 0 50px;
+  position: relative;
 
-    .input-container {
-        max-width: 600px;
-        margin: 60px auto;
+  .input-container {
+    max-width: 600px;
+    margin: 60px auto;
+    display: block;
+    padding: 0 50px;
+
+    .facebook {
+      text-align: center;
+      background: $facebook;
+      border-radius: 4px;
+      color: $white;
+
+      a {
+        padding: 12px 0;
         display: block;
-        padding: 0 50px;
+        color: $white;
+        font-size: 16px;
+        text-transform: uppercase;
 
-
-        .facebook {
-            text-align: center;
-            background: $facebook;
-            border-radius: 4px;
-            color: $white;
-
-            a {
-                padding: 12px 0;
-                display: block;
-                color: $white;
-                font-size: 16px;
-                text-transform: uppercase;
-
-                i {
-                    margin-right: 10px;
-                    font-size: 22px;
-                }
-            }
+        i {
+          margin-right: 10px;
+          font-size: 22px;
         }
-
-        .bottom-line {
-            max-width: auto;
-            background: $light-grey;
-            height: 1px;
-            margin: 25px 0 50px 0;
-        }
-
-        // Form Area
-        .access-form {
-            color: $input-green;
-            font-size: 16px;
-            display: block;
-            font-family: 'Yanone Kaffeesatz', sans-serif;
-            padding-bottom: 25px;
-
-            .email-input {
-                font-weight: 300;
-                margin-bottom: 30px;
-
-                input {
-                    width: 100%;
-                    padding: 12px 0 12px 12px;
-                    font-size: 16px;
-                    font-weight: 100;
-                    background: $light-grey;
-                    border: 1px solid transparent;
-                    border-radius: 4px;
-                    margin-top: 5px;
-
-                    &:focus {
-                        outline: none;
-                        border: 1px solid $green;
-                    }
-                }
-
-            }
-
-            .password-input {
-                font-weight: 300;
-
-                input {
-                    width: 100%;
-                    padding: 12px 0 12px 12px;
-                    font-size: 16px;
-                    font-weight: 100;
-                    background: $light-grey;
-                    border: 1px solid transparent;
-                    border-radius: 4px;
-                    margin: 5px 0 10px 0;
-
-                    &:focus {
-                        outline: none;
-                        border: 1px solid $green;
-                    }
-                }
-            }
-
-            .submit {
-                input {
-                    width: 100%;
-                    padding: 12px 0;
-                    font-size: 20px;
-                    color: $white;
-                    text-transform: uppercase;
-                    text-align: center;
-                    font-family: 'Yanone Kaffeesatz', sans-serif;
-                    font-weight: 700;
-                    background: $green;
-                    border: 1px solid transparent;
-                    border-radius: 4px;
-                    letter-spacing: 2px;
-                    cursor: pointer;
-                    transition: all 1s ease-out;
-
-                    &:focus {
-                        outline: none;
-                    }
-
-                    &:hover {
-                        transform: scale(1.01, 1.01);
-                        background: #0a575f;
-                    }
-                }
-            }
-        }
-
-        .forgot{
-            font-weight: 300;
-            color: $input-green;
-            font-size: 16px;
-            font-family: 'Yanone Kaffeesatz', sans-serif;
-            text-decoration: underline;
-        }
-
-        .alternative{
-            color: $light-grey;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-transform: uppercase;
-            text-align: center;
-            margin: 50px 0;
-            h3{
-                margin: 0 15px;
-            }
-            span{
-                height: 1px;
-                width: 100%;
-                background: $light-grey;
-            }
-        }
-
-        .no-account{
-            text-align: center;
-            display: block;
-            width: 100%;
-            padding: 15px 0;
-            color: $white;
-            background: rgba($color: $green, $alpha: 0.8) ;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: all 1s ease-out;
-
-            &:hover {
-                transform: scale(1.01, 1.01);
-                background: #0a575f;
-            }
-        }
+      }
     }
+
+    .bottom-line {
+      max-width: auto;
+      background: $light-grey;
+      height: 1px;
+      margin: 25px 0 50px 0;
+    }
+
+    // Form Area
+    .access-form {
+      color: $input-green;
+      font-size: 16px;
+      display: block;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      padding-bottom: 25px;
+
+      .email-input {
+        font-weight: 300;
+        margin-bottom: 30px;
+
+        input {
+          width: 100%;
+          padding: 12px 0 12px 12px;
+          font-size: 16px;
+          font-weight: 100;
+          background: $light-grey;
+          border: 1px solid transparent;
+          border-radius: 4px;
+          margin-top: 5px;
+
+          &:focus {
+            outline: none;
+            border: 1px solid $green;
+          }
+        }
+      }
+
+      .password-input {
+        font-weight: 300;
+
+        input {
+          width: 100%;
+          padding: 12px 0 12px 12px;
+          font-size: 16px;
+          font-weight: 100;
+          background: $light-grey;
+          border: 1px solid transparent;
+          border-radius: 4px;
+          margin: 5px 0 10px 0;
+
+          &:focus {
+            outline: none;
+            border: 1px solid $green;
+          }
+        }
+      }
+
+      .submit {
+        input {
+          width: 100%;
+          padding: 12px 0;
+          font-size: 20px;
+          color: $white;
+          text-transform: uppercase;
+          text-align: center;
+          font-family: 'Yanone Kaffeesatz', sans-serif;
+          font-weight: 700;
+          background: $green;
+          border: 1px solid transparent;
+          border-radius: 4px;
+          letter-spacing: 2px;
+          cursor: pointer;
+          transition: all 1s ease-out;
+
+          &:focus {
+            outline: none;
+          }
+
+          &:hover {
+            transform: scale(1.01, 1.01);
+            background: #0a575f;
+          }
+        }
+      }
+    }
+
+    .forgot {
+      font-weight: 300;
+      color: $input-green;
+      font-size: 16px;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      text-decoration: underline;
+    }
+
+    .alternative {
+      color: $light-grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 50px 0;
+      h3 {
+        margin: 0 15px;
+      }
+      span {
+        height: 1px;
+        width: 100%;
+        background: $light-grey;
+      }
+    }
+
+    .no-account {
+      text-align: center;
+      display: block;
+      width: 100%;
+      padding: 15px 0;
+      color: $white;
+      background: rgba($color: $green, $alpha: 0.8);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 1s ease-out;
+
+      &:hover {
+        transform: scale(1.01, 1.01);
+        background: #0a575f;
+      }
+    }
+  }
 }
