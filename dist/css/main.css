@@ -1,4 +1,5 @@
 /** @format */
+/** @format */
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 #account {
   padding: 125px 0 50px;
@@ -393,6 +394,8 @@ body {
   margin-bottom: 0;
   line-height: 1.6;
   height: 100%; }
+  body::-webkit-scrollbar {
+    display: none; }
 
 a {
   text-decoration: none;

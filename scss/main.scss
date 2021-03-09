@@ -1,3 +1,5 @@
+/** @format */
+
 // Variables
 $white: #fff;
 $dark-grey: #222;
@@ -28,6 +30,10 @@ body {
   margin-bottom: 0;
   line-height: 1.6;
   height: 100%;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 a {
