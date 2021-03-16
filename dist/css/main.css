@@ -302,6 +302,7 @@
           #sign-up-area #sign-up .sign-up-contain .sign-up-area .submit button:focus {
             outline: none; }
 
+/** @format */
 #footer {
   padding: 40px;
   background-color: #222;
@@ -377,7 +378,7 @@
       background: #15aebf;
       font-size: 30px;
       line-height: 1.15;
-      transition: all .5s ease-out; }
+      transition: all 0.5s ease-out; }
       #footer .arrow a i:hover {
         background: #fff;
         border: 1px solid #15aebf;

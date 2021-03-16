@@ -1,144 +1,141 @@
+/** @format */
+
 #footer {
-    padding: 40px;
-    background-color: $dark-grey;
-    height: auto;
-    position: relative;
+  padding: 40px;
+  background-color: $dark-grey;
+  height: auto;
+  position: relative;
 
+  .footer-items {
+    display: grid;
+    grid-template-columns: auto 350px;
 
-    .footer-items {
-        display: grid;
-        grid-template-columns: auto 350px;
+    // left Items
+    .left {
+      .footer-logo {
+        margin-bottom: 25px;
 
-        // left Items
-        .left {
-            .footer-logo {
-                margin-bottom: 25px;
+        .footer-brand {
+          .footer-circle {
+            letter-spacing: 1.5px;
 
-                .footer-brand {
-                    .footer-circle {
-                        letter-spacing: 1.5px;
-
-                        i {
-                            color: $green;
-                            margin: 0 1px;
-                        }
-
-                        font-size: 16px;
-                        text-transform: uppercase;
-                    }
-                }
-            }
-
-            .founded {
-                font-size: 16px;
-            }
-
-            .social {
-                margin-top: 25px;
-
-                .social-links:first-child {
-                    margin-left: 0;
-                }
-
-                .social-links {
-                    margin: 0 10px;
-                    font-size: 20px;
-                    transition: color 0.5s cubic-bezier(1, 0.3, 0.5, 1);
-                    color: $white;
-
-                    &:hover {
-                        color: $green;
-                    }
-                }
-            }
-        }
-
-        // Right Items
-        .right {
-            padding: 0 0 0 40px;
-
-            h1 {
-                font-size: 32px;
-                margin-bottom: 25px;
-                color: $green;
-            }
-
-            .address,
-            .email {
-                margin-bottom: 30px;
-
-                i {
-                    margin-right: 15px;
-                    color: $green;
-                }
-            }
-
-            .phone {
-                i {
-                    margin-right: 15px;
-                    color: $green;
-                }
-            }
-        }
-    }
-
-    // Copyright
-    .copyright {
-        text-align: center;
-
-        .footer-logo {
-            display: inline-block;
-            font-size: 10px;
-
-            .footer-brand {
-                padding-top: 50px;
-
-                .footer-circle {
-                    font-size: 8px;
-
-                     letter-spacing: 1.5px;
-
-                     i {
-                        color: $green;
-                        margin: 0 1px;
-                    }
-
-          
-            text-transform: uppercase;
-                }
-            }
-        }
-    }
-
-
-    // Arrow Icon
-    .arrow {
-        position: fixed;
-        right: 7px;
-        bottom: 7px;
-        display: none;
-        z-index: 3;
-
-        a {
             i {
-                border-radius: 50px;
-                padding: 5px;
-                height: 35px;
-                width: 35px;
-                text-align: center;
-                background: $green;
-                font-size: 30px;
-                line-height: 1.15;
-                transition: all .5s ease-out;
-
-                &:hover {
-                    background: $white;
-                    border: 1px solid $green;
-                    color: $green;
-                }
+              color: $green;
+              margin: 0 1px;
             }
+
+            font-size: 16px;
+            text-transform: uppercase;
+          }
+        }
+      }
+
+      .founded {
+        font-size: 16px;
+      }
+
+      .social {
+        margin-top: 25px;
+
+        .social-links:first-child {
+          margin-left: 0;
         }
 
-        ;
+        .social-links {
+          margin: 0 10px;
+          font-size: 20px;
+          transition: color 0.5s cubic-bezier(1, 0.3, 0.5, 1);
+          color: $white;
+
+          &:hover {
+            color: $green;
+          }
+        }
+      }
     }
+
+    // Right Items
+    .right {
+      padding: 0 0 0 40px;
+
+      h1 {
+        font-size: 32px;
+        margin-bottom: 25px;
+        color: $green;
+      }
+
+      .address,
+      .email {
+        margin-bottom: 30px;
+
+        i {
+          margin-right: 15px;
+          color: $green;
+        }
+      }
+
+      .phone {
+        i {
+          margin-right: 15px;
+          color: $green;
+        }
+      }
+    }
+  }
+
+  // Copyright
+  .copyright {
+    text-align: center;
+
+    .footer-logo {
+      display: inline-block;
+      font-size: 10px;
+
+      .footer-brand {
+        padding-top: 50px;
+
+        .footer-circle {
+          font-size: 8px;
+
+          letter-spacing: 1.5px;
+
+          i {
+            color: $green;
+            margin: 0 1px;
+          }
+
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  // Arrow Icon
+  .arrow {
+    position: fixed;
+    right: 7px;
+    bottom: 7px;
+    display: none;
+    z-index: 3;
+
+    a {
+      i {
+        border-radius: 50px;
+        padding: 5px;
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        background: $green;
+        font-size: 30px;
+        line-height: 1.15;
+        transition: all 0.5s ease-out;
+
+        &:hover {
+          background: $white;
+          border: 1px solid $green;
+          color: $green;
+        }
+      }
+    }
+  }
 }
