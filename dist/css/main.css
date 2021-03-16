@@ -127,7 +127,7 @@
   position: relative; }
   #trainers-area * {
     z-index: 1; }
-  #trainers-area:after {
+  #trainers-area::before {
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
@@ -464,7 +464,7 @@ ul {
   position: relative; }
   #bg-area * {
     z-index: 1; }
-  #bg-area::after {
+  #bg-area::before {
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.6);

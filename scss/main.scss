@@ -138,7 +138,7 @@ ul {
   }
 
   // Overlay for Home Page Image
-  &::after {
+  &::before {
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
