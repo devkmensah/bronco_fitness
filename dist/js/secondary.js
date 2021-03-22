@@ -1,7 +1,9 @@
 /** @format */
 
 'use strict';
-// 2. Smooth scroll effects for about us nav
+/* ----------------------------------------------------------- */
+// SMOOTH SCROLL EFFECT FOR ABOUT US NAV
+/* ----------------------------------------------------------- */
 const aboutNav = document.querySelector('.about-nav');
 const footer = document.querySelector('#footer');
 

@@ -1,7 +1,9 @@
 /** @format */
 
 'use strict';
-// 1. Pricing & Plans btn checkbox
+/* ----------------------------------------------------------- */
+// PRICING & PLANS BTN CHECKBOX
+/* ----------------------------------------------------------- */
 const btnCheckbox = document.querySelector('#btn-checkbox');
 const monthly = document.querySelectorAll('.monthly');
 const annually = document.querySelectorAll('.annually');
